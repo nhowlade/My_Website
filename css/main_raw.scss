@@ -1,0 +1,18 @@
+$space-left: 5%;
+$space-right: 4%;
+
+.container-mod {
+  padding: 0;
+}
+.navbar {
+  padding-left: $space-left;
+  padding-right: $space-right;
+}
+.bearclaw {
+  margin-left: 5%;
+}
+
+.entireBody {
+  margin-left: $space-left;
+  margin-right: $space-right;
+}
