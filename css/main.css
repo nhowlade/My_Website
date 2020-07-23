@@ -1,6 +1,15 @@
 .container-mod {
-  width: 93%;
+  padding: 0;
+}
+.navbar {
+  padding-left: 5%;
+  padding-right: 4%;
 }
 .bearclaw {
   margin-left: 5%;
+}
+
+.entireBody {
+  margin-left: 5%;
+  margin-right: 4%;
 }
