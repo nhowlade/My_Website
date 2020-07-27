@@ -16,3 +16,12 @@ $space-right: 4%;
   margin-left: $space-left;
   margin-right: $space-right;
 }
+
+.exp_button {
+  background: linear-gradient(to right, #808080, #d3d3d3d3);
+  border-radius: 100px;
+  box-shadow: 2px 3px;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
