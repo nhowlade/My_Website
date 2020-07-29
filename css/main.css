@@ -14,7 +14,7 @@
 
 .exp_button {
   background: linear-gradient(to right, #808080, #d3d3d3d3);
-  border-radius: 100px;
-  box-shadow: 2px; }
+  border-radius: 100px; }
   .exp_button:hover {
-    transform: scale(1.05); }
+    transform: scale(1.05);
+    box-shadow: 2px 2px; }
