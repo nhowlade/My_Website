@@ -27,12 +27,14 @@ $space-right: 4%;
     }
 }
 
-.newelement1 {
-    height: 75%;
+.my_image {
+    height: 85vh;
+    background-size: cover;
     background-image: linear-gradient(
-            to right bottom,
-            rgba(85, 197, 122, 0.8),
-            rgba(40, 180, 133, 0.8)
+            to right,
+            rgba(orangered, 0.6),
+            rgba(yellow, 0.6)
         ),
-        url(../tunnel.jpg);
+        url(../IMG_1576.jpg);
+    text-align: center;
 }
