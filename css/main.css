@@ -1,20 +1,32 @@
 .container-mod {
-  padding: 0; }
+    padding: 0;
+}
 
 .navbar {
-  padding-left: 5%;
-  padding-right: 4%; }
+    padding-left: 5%;
+    padding-right: 4%;
+}
 
 .bearclaw {
-  margin-left: 5%; }
+    margin-left: 5%;
+}
 
 .entireBody {
-  margin-left: 5%;
-  margin-right: 4%; }
+    margin-left: 5%;
+    margin-right: 4%;
+}
 
 .exp_button {
-  background: linear-gradient(to right, #808080, #d3d3d3d3);
-  border-radius: 100px; }
-  .exp_button:hover {
+    background: linear-gradient(to right, #808080, #d3d3d3d3);
+    border-radius: 100px;
+}
+.exp_button:hover {
     transform: scale(1.05);
-    box-shadow: 2px 2px; }
+    box-shadow: 2px 2px;
+}
+
+.newelement1 {
+    height: 80vh;
+    background-image: url(../tunnel.jpg);
+    background-size: cover;
+}
