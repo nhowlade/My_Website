@@ -27,7 +27,11 @@ $space-right: 4%;
     }
 }
 
-.my_image {
+.intro_element {
+    display: table;
+}
+
+.intro_element-image {
     height: 85vh;
     background-size: cover;
     background-image: linear-gradient(
@@ -37,4 +41,7 @@ $space-right: 4%;
         ),
         url(../IMG_1576.jpg);
     text-align: center;
+}
+
+.intro_element-text {
 }
