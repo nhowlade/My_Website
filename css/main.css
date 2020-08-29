@@ -19,11 +19,9 @@
     transform: scale(1.05);
     box-shadow: 2px 2px; }
 
-.intro_element {
-  display: table; }
-
 .intro_element-image {
   height: 85vh;
+  width: 100%;
   background-size: cover;
   background-image: linear-gradient(to right, rgba(255, 69, 0, 0.7), rgba(255, 165, 0, 0.6)), url(../IMG_1576.jpg);
   text-align: center; }
