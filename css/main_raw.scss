@@ -28,17 +28,15 @@ $space-right: 4%;
 }
 
 .intro_element {
-    &-image {
-        height: 85vh;
-        width: 100%;
-        background-size: cover;
-        background-image: linear-gradient(
-                to right,
-                rgba(orangered, 0.7),
-                rgba(orange, 0.6)
-            ),
-            url(../IMG_1576.jpg);
-        text-align: center;
+    &-container {
+        &-image {
+            display: block;
+            height: 70vh;
+            width: 50vh;
+            background-size: cover;
+            text-align: center;
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        }
     }
 
     &-text {
