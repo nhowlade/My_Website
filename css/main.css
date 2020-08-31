@@ -19,10 +19,19 @@
     transform: scale(1.05);
     box-shadow: 2px 2px; }
 
-.intro_element-container-image {
-  display: block;
-  height: 70vh;
-  width: 50vh;
-  background-size: cover;
-  text-align: center;
-  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); }
+.intro_element {
+  position: relative; }
+  .intro_element-container {
+    display: inline-block; }
+    .intro_element-container-image {
+      display: block;
+      height: 70vh;
+      width: 50vh;
+      background-size: cover;
+      text-align: center;
+      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); }
+  .intro_element-text {
+    position: absolute;
+    display: float;
+    margin-top: 18%;
+    margin-left: 10px; }

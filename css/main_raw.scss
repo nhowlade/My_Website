@@ -28,7 +28,9 @@ $space-right: 4%;
 }
 
 .intro_element {
+    position: relative;
     &-container {
+        display: inline-block;
         &-image {
             display: block;
             height: 70vh;
@@ -40,5 +42,9 @@ $space-right: 4%;
     }
 
     &-text {
+        position: absolute;
+        display: float;
+        margin-top: 18%;
+        margin-left: 10px;
     }
 }
