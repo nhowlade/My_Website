@@ -28,9 +28,8 @@ $space-right: 4%;
 }
 
 .intro_element {
-    position: relative;
+    display: flex;
     &-container {
-        display: inline-block;
         &-image {
             display: block;
             height: 70vh;
@@ -42,5 +41,13 @@ $space-right: 4%;
     }
 
     &-text {
+        display: flex;
+        text-align: center;
+    }
+
+    &-writing {
+        text-decoration: none;
+        color: #212529;
+        transform: translateY(45%);
     }
 }

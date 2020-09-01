@@ -20,13 +20,18 @@
     box-shadow: 2px 2px; }
 
 .intro_element {
-  position: relative; }
-  .intro_element-container {
-    display: inline-block; }
-    .intro_element-container-image {
-      display: block;
-      height: 70vh;
-      width: 50vh;
-      background-size: cover;
-      text-align: center;
-      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); }
+  display: flex; }
+  .intro_element-container-image {
+    display: block;
+    height: 70vh;
+    width: 50vh;
+    background-size: cover;
+    text-align: center;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); }
+  .intro_element-text {
+    display: flex;
+    text-align: center; }
+  .intro_element-writing {
+    text-decoration: none;
+    color: #212529;
+    transform: translateY(45%); }
