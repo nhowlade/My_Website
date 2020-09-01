@@ -30,8 +30,3 @@
       background-size: cover;
       text-align: center;
       clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); }
-  .intro_element-text {
-    position: absolute;
-    display: float;
-    margin-top: 18%;
-    margin-left: 10px; }
