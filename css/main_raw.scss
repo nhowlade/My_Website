@@ -44,15 +44,15 @@ $space-right: 4%;
         display: flex;
         text-align: center;
         font-weight: 700;
-    }
-
-    &-writing {
-        text-decoration: none;
-        color: #212529;
-        transform: translateY(45%);
-        &:hover {
+        &-writing {
             text-decoration: none;
-            color: orangered;
+            color: #212529;
+            height: 15%;
+            transform: translateY(30vh);
+            &:hover {
+                text-decoration: none;
+                color: orangered;
+            }
         }
     }
 }
