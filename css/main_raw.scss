@@ -43,11 +43,16 @@ $space-right: 4%;
     &-text {
         display: flex;
         text-align: center;
+        font-weight: 700;
     }
 
     &-writing {
         text-decoration: none;
         color: #212529;
         transform: translateY(45%);
+        &:hover {
+            text-decoration: none;
+            color: orangered;
+        }
     }
 }

@@ -30,8 +30,12 @@
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); }
   .intro_element-text {
     display: flex;
-    text-align: center; }
+    text-align: center;
+    font-weight: 700; }
   .intro_element-writing {
     text-decoration: none;
     color: #212529;
     transform: translateY(45%); }
+    .intro_element-writing:hover {
+      text-decoration: none;
+      color: orangered; }
