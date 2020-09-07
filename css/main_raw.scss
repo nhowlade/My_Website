@@ -49,6 +49,7 @@ $space-right: 4%;
             color: #212529;
             height: 15%;
             transform: translateY(30vh);
+            transition: all 0.1s;
             &:hover {
                 text-decoration: none;
                 color: orangered;

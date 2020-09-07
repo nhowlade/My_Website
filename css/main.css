@@ -36,7 +36,8 @@
       text-decoration: none;
       color: #212529;
       height: 15%;
-      transform: translateY(30vh); }
+      transform: translateY(30vh);
+      transition: all 0.1s; }
       .intro_element-text-writing:hover {
         text-decoration: none;
         color: orangered; }
