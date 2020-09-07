@@ -40,4 +40,5 @@
       transition: all 0.1s; }
       .intro_element-text-writing:hover {
         text-decoration: none;
-        color: orangered; }
+        color: #ec4d37;
+        transform: scale(1.03) translateY(30vh); }

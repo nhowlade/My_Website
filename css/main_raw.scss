@@ -52,7 +52,8 @@ $space-right: 4%;
             transition: all 0.1s;
             &:hover {
                 text-decoration: none;
-                color: orangered;
+                color: #ec4d37;
+                transform: scale(1.03) translateY(30vh);
             }
         }
     }
