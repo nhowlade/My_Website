@@ -45,3 +45,8 @@
 
 .newelement2 {
   padding-top: 2rem; }
+
+#education {
+  font-weight: 700; }
+  #education:hover {
+    text-decoration: none; }

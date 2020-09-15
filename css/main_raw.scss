@@ -62,3 +62,11 @@ $space-right: 4%;
 .newelement2 {
     padding-top: 2rem;
 }
+
+#education {
+    font-weight: 700;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
