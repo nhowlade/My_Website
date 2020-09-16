@@ -44,7 +44,8 @@
         transform: scale(1.03) translateY(30vh); }
 
 .newelement2 {
-  padding-top: 2rem; }
+  padding-top: 2rem;
+  border-radius: 2px 1rem; }
 
 #education {
   font-weight: 700; }
