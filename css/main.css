@@ -51,3 +51,6 @@
   font-weight: 700; }
   #education:hover {
     text-decoration: none; }
+
+div p {
+  color: pink; }
