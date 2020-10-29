@@ -29,19 +29,18 @@
     text-align: center;
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); }
   .intro_element-text {
-    display: flex;
-    text-align: center;
+    margin: auto;
     font-weight: 700; }
     .intro_element-text-writing {
+      display: block;
       text-decoration: none;
       color: #212529;
       height: 15%;
-      transform: translateY(30vh);
       transition: all 0.1s; }
       .intro_element-text-writing:hover {
         text-decoration: none;
         text-shadow: #ec4d37 0 1px 10px;
-        transform: scale(1.03) translateY(30vh); }
+        transform: scale(1.03); }
 
 .newelement2 {
   padding-top: 2rem;
