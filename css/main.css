@@ -5,12 +5,10 @@
   padding-left: 5%;
   padding-right: 4%; }
 
-.bearclaw {
-  margin-left: 5%; }
-
 .entireBody {
   margin-left: 5%;
-  margin-right: 4%; }
+  margin-right: 4%;
+  background-color: #b8e1fc; }
 
 .exp_button {
   background: linear-gradient(to right, #808080, #d3d3d3d3);
