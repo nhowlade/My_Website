@@ -51,3 +51,9 @@
 
 div p {
   color: #974cec; }
+
+.card__box {
+  display: flex;
+  flex-direction: row; }
+  .card__box--card {
+    display: inline-block; }
