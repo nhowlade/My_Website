@@ -53,6 +53,7 @@ div p {
   color: #974cec; }
 
 .card__box {
+  padding-left: 30px;
   display: flex;
   flex-direction: row; }
   .card__box--card {
