@@ -8,17 +8,17 @@
         <link href="css/bootstrap.min.css" rel="stylesheet" />
         <link href="css/main.css" rel="stylesheet" />
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script>
+            $(function () {
+                $("#navbar_home").load("views/nav.html");
+            });
+        </script>
     </head>
     <body>
         <div
             id="navbar_home"
             class="container-fluid container-mod sticky-top"
         ></div>
-        <script>
-            $(function () {
-                $("#navbar_home").load("views/nav.html");
-            });
-        </script>
 
         <div class="entireBody">
             <div class="intro_element">
