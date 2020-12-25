@@ -58,3 +58,6 @@ div p {
   flex-direction: row; }
   .card__box--card {
     display: inline-block; }
+
+.divider {
+  border: 2px solid rgba(15, 2, 2, 0.158); }
