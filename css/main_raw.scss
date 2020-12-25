@@ -56,8 +56,8 @@ $space-right: 4%;
     }
 }
 
-.newelement2 {
-    padding-top: 2rem;
+.EdSection {
+    padding-left: 30px;
     border-radius: 2px 1rem;
 }
 
@@ -74,7 +74,7 @@ div p {
 }
 
 .card__box {
-    padding-left: 30px;
+    
     display: flex;
     flex-direction: row;
     &--card {
