@@ -7,8 +7,7 @@
 
 .entireBody {
   margin-left: 5%;
-  margin-right: 4%;
-  background-color: #b8e1fc; }
+  margin-right: 4%; }
 
 .exp_button {
   background: linear-gradient(to right, #808080, #d3d3d3d3);
@@ -18,8 +17,9 @@
     box-shadow: 2px 2px; }
 
 .intro_element {
+  padding-top: 1.5%;
   display: flex; }
-  .intro_element-container-image {
+  .intro_element-img-image {
     display: block;
     height: 70vh;
     width: 50vh;
