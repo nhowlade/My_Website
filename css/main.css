@@ -54,8 +54,10 @@ div p {
 
 .card__box {
   display: flex;
-  flex-direction: row; }
+  justify-content: space-evenly; }
   .card__box--card {
+    flex-wrap: wrap;
+    max-width: 30%;
     display: inline-block; }
 
 .divider {

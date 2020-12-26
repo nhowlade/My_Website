@@ -64,12 +64,11 @@ $font-color: rgb(151, 76, 236);
 }
 
 .side_projects {
-    
+
 }
 
 #education {
     font-weight: 700;
-
     &:hover {
         text-decoration: none;
     }
@@ -80,10 +79,11 @@ div p {
 }
 
 .card__box {
-    
     display: flex;
-    flex-direction: row;
+    justify-content: space-evenly;
     &--card {
+        flex-wrap: wrap;
+        max-width: 30%;
         display: inline-block;
     }
 }
