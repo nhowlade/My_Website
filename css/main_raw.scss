@@ -1,5 +1,6 @@
 $space-left: 5%;
 $space-right: 4%;
+$font-color: rgb(151, 76, 236);
 
 .container-mod {
     padding: 0;
@@ -62,6 +63,10 @@ $space-right: 4%;
     border-radius: 2px 1rem;
 }
 
+.side_projects {
+    
+}
+
 #education {
     font-weight: 700;
 
@@ -71,7 +76,7 @@ $space-right: 4%;
 }
 
 div p {
-    color: rgb(151, 76, 236);
+    color: $font-color;
 }
 
 .card__box {
