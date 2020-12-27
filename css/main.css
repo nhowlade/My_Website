@@ -5,12 +5,11 @@
   justify-content: center; }
 
 .navbar {
-  padding-left: 5%;
-  padding-right: 4%; }
-
-.entireBody {
-  margin-left: 5%;
-  margin-right: 4%; }
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative; }
+  .navbar-brand {
+    transform: translateX(25%); }
 
 .exp_button {
   background: linear-gradient(to right, #808080, #d3d3d3d3);
@@ -22,7 +21,7 @@
 .intro_element {
   padding-top: 1.5%;
   display: flex;
-  justify-content: space-around; }
+  justify-content: center; }
   .intro_element-img-image {
     margin-left: 5%;
     height: 70vh;
@@ -31,12 +30,15 @@
     text-align: center; }
   .intro_element-text {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    max-width: 50vh; }
     .intro_element-text-p {
+      margin-left: 15%;
+      display: flex;
+      flex-wrap: wrap;
       font-weight: 700;
       text-decoration: none;
-      color: #212529;
-      height: 15%; }
+      color: #212529; }
 
 .EdSection {
   padding-left: 30px;
