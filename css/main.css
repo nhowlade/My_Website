@@ -23,25 +23,20 @@
   padding-top: 1.5%;
   display: flex; }
   .intro_element-img-image {
-    display: block;
+    margin-left: 5%;
     height: 70vh;
     width: 50vh;
     background-size: cover;
-    text-align: center;
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); }
+    text-align: center; }
   .intro_element-text {
-    margin: auto;
-    font-weight: 700; }
-    .intro_element-text-writing {
-      display: block;
+    display: flex;
+    align-items: center; }
+    .intro_element-text-p {
+      margin-left: 5%;
+      font-weight: 700;
       text-decoration: none;
       color: #212529;
-      height: 15%;
-      transition: all 0.1s; }
-      .intro_element-text-writing:hover {
-        text-decoration: none;
-        text-shadow: #ec4d37 0 1px 10px;
-        transform: scale(1.03); }
+      height: 15%; }
 
 .EdSection {
   padding-left: 30px;
