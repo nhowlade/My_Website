@@ -1,6 +1,9 @@
 .container-mod {
   padding: 0; }
 
+.collapse {
+  justify-content: center; }
+
 .navbar {
   padding-left: 5%;
   padding-right: 4%; }
