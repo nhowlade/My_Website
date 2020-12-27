@@ -47,9 +47,6 @@
   #education:hover {
     text-decoration: none; }
 
-div p {
-  color: #974cec; }
-
 .card__box {
   display: flex;
   justify-content: space-evenly; }

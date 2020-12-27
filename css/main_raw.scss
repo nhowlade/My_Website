@@ -16,7 +16,6 @@ $font-color: rgb(151, 76, 236);
 .entireBody {
     margin-left: $space-left;
     margin-right: $space-right;
-    // background-color: #b8e1fc;
 }
 
 .exp_button {
@@ -35,7 +34,6 @@ $font-color: rgb(151, 76, 236);
     justify-content: space-around;
     &-img{
         &-image {
-            // display: block;
             margin-left: 5%;
             height: 70vh;
             width: 50vh;
@@ -53,13 +51,7 @@ $font-color: rgb(151, 76, 236);
             text-decoration: none;
             color: #212529;
             height: 15%;
-            }
-            // transition: all 0.1s;
-            // &:hover {
-            //     text-decoration: none;
-            //     text-shadow: #ec4d37 0 1px 10px;
-            //     transform: scale(1.03);
-            //}
+        }
     }
 }
 
@@ -77,10 +69,6 @@ $font-color: rgb(151, 76, 236);
     &:hover {
         text-decoration: none;
     }
-}
-
-div p {
-    color: $font-color;
 }
 
 .card__box {
