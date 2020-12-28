@@ -2,14 +2,8 @@
   padding: 0; }
 
 .collapse {
-  justify-content: center; }
-
-.navbar {
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative; }
-  .navbar-brand {
-    transform: translateX(25%); }
+  display: flex;
+  justify-content: flex-end; }
 
 .exp_button {
   background: linear-gradient(to right, #808080, #d3d3d3d3);

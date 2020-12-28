@@ -6,20 +6,13 @@ $font-color: rgb(151, 76, 236);
     padding: 0;
 }
 .collapse{
-    justify-content: center;
+    display: flex;
+    justify-content: flex-end;
 }
 .navbar {
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-    &-brand{
-        transform: translateX(25%); 
-    }
 }
 
 .entireBody {
-    // margin-left: $space-left;
-    // margin-right: $space-right;
 }
 
 .exp_button {
@@ -43,7 +36,6 @@ $font-color: rgb(151, 76, 236);
             width: 50vh;
             background-size: cover;
             text-align: center;
-            // clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
         }
     }
 
