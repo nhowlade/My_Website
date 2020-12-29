@@ -56,8 +56,10 @@ $font-color: rgb(151, 76, 236);
 @media screen and (max-width: 768px) {
     .intro_element {
         display: block;
+        position: relative;
         background-color: white;
         &-img{
+            margin: auto;
             height: 70vh;
             width: 50vh;
             &-image {
@@ -68,6 +70,7 @@ $font-color: rgb(151, 76, 236);
         }
     
         &-text {
+            margin: auto;
             display: flex;
             align-items: center;
             max-width: 70vh;

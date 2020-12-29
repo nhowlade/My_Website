@@ -42,8 +42,10 @@
 @media screen and (max-width: 768px) {
   .intro_element {
     display: block;
+    position: relative;
     background-color: white; }
     .intro_element-img {
+      margin: auto;
       height: 70vh;
       width: 50vh; }
       .intro_element-img-image {
@@ -51,6 +53,7 @@
         text-align: center;
         clip-path: polygon(40% 30%, 85% 30%, 55% 90%, 10% 90%); }
     .intro_element-text {
+      margin: auto;
       display: flex;
       align-items: center;
       max-width: 70vh; }
