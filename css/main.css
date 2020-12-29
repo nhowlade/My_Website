@@ -1,9 +1,13 @@
 .container-mod {
   padding: 0; }
 
-.collapse {
+.me_navItem {
   display: flex;
   justify-content: flex-end; }
+
+@media screen and (max-width: 768px) {
+  .me_navItem {
+    justify-content: flex-start; } }
 
 .exp_button {
   background: linear-gradient(to right, #808080, #d3d3d3d3);
