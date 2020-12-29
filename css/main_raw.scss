@@ -5,12 +5,12 @@ $font-color: rgb(151, 76, 236);
 .container-mod {
     padding: 0;
 }
-.me_navItem{
+.me_navItem {
     display: flex;
     justify-content: flex-end;
 }
 @media screen and (max-width: 768px) {
-    .me_navItem{
+    .me_navItem {
         justify-content: flex-start;
     }
 }
@@ -31,7 +31,7 @@ $font-color: rgb(151, 76, 236);
     justify-content: center;
     background-color: aquamarine;
 
-    &-img{
+    &-img {
         height: 70vh;
         width: 50vh;
         transform: translateY(-20%);
@@ -40,7 +40,7 @@ $font-color: rgb(151, 76, 236);
             background-size: cover;
             text-align: center;
             clip-path: polygon(40% 30%, 85% 30%, 55% 90%, 10% 90%);
-            animation: image-in .75s ease-in;
+            animation: image-in 0.65s ease-in;
             transition: all;
         }
     }
@@ -49,7 +49,7 @@ $font-color: rgb(151, 76, 236);
         display: flex;
         align-items: center;
         max-width: 70vh;
-        &-p{
+        &-p {
             margin-left: 15%;
             display: flex;
             flex-wrap: wrap;
@@ -62,10 +62,7 @@ $font-color: rgb(151, 76, 236);
 
 @media screen and (max-width: 768px) {
     .intro_element {
-        display: block;
-        position: relative;
-        background-color: white;
-        &-img{
+        &-img {
             margin: auto;
             height: 70vh;
             width: 50vh;
@@ -75,23 +72,18 @@ $font-color: rgb(151, 76, 236);
                 clip-path: polygon(40% 30%, 85% 30%, 55% 90%, 10% 90%);
             }
         }
-    
+
         &-text {
             margin: auto;
             display: flex;
             align-items: center;
             max-width: 70vh;
-            &-p{
+            &-p {
                 margin-left: 15%;
-                display: flex;
-                flex-wrap: wrap;
-                font-weight: 700;
-                text-decoration: none;
-                color: #212529;
             }
         }
     }
-  }
+}
 
 .EdSection {
     padding-left: 30px;
@@ -115,16 +107,16 @@ $font-color: rgb(151, 76, 236);
     }
 }
 
-.divider{
+.divider {
     border: 2px solid rgba(15, 2, 2, 0.158);
 }
 
-@keyframes image-in{
-    0%{
+@keyframes image-in {
+    0% {
         opacity: 0;
         transform: scale(0.25);
     }
-    100%{
+    100% {
         opacity: 100%;
         transform: scale(1);
     }

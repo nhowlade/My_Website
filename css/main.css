@@ -31,7 +31,7 @@
       background-size: cover;
       text-align: center;
       clip-path: polygon(40% 30%, 85% 30%, 55% 90%, 10% 90%);
-      animation: image-in .75s ease-in;
+      animation: image-in 0.65s ease-in;
       transition: all; }
   .intro_element-text {
     display: flex;
@@ -46,30 +46,21 @@
       color: #212529; }
 
 @media screen and (max-width: 768px) {
-  .intro_element {
-    display: block;
-    position: relative;
-    background-color: white; }
-    .intro_element-img {
-      margin: auto;
-      height: 70vh;
-      width: 50vh; }
-      .intro_element-img-image {
-        background-size: cover;
-        text-align: center;
-        clip-path: polygon(40% 30%, 85% 30%, 55% 90%, 10% 90%); }
-    .intro_element-text {
-      margin: auto;
-      display: flex;
-      align-items: center;
-      max-width: 70vh; }
-      .intro_element-text-p {
-        margin-left: 15%;
-        display: flex;
-        flex-wrap: wrap;
-        font-weight: 700;
-        text-decoration: none;
-        color: #212529; } }
+  .intro_element-img {
+    margin: auto;
+    height: 70vh;
+    width: 50vh; }
+    .intro_element-img-image {
+      background-size: cover;
+      text-align: center;
+      clip-path: polygon(40% 30%, 85% 30%, 55% 90%, 10% 90%); }
+  .intro_element-text {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    max-width: 70vh; }
+    .intro_element-text-p {
+      margin-left: 15%; } }
 
 .EdSection {
   padding-left: 30px;
