@@ -37,7 +37,6 @@ $font-color: rgb(151, 76, 236);
         justify-content: center;
         animation: image-in 0.8s ease-in;
         &-image {
-<<<<<<< HEAD
             &-dhaka {
                 transform: translate(30%, -15%);
                 clip-path: polygon(40% 30%, 85% 30%, 55% 90%, 10% 90%);
@@ -49,12 +48,6 @@ $font-color: rgb(151, 76, 236);
                 text-align: center;
                 clip-path: polygon(40% 30%, 85% 30%, 55% 90%, 10% 90%);
             }
-=======
-            background-size: cover;
-            text-align: center;
-            clip-path: polygon(40% 30%, 85% 30%, 55% 90%, 10% 90%);
-            animation: image-in .65s linear;
->>>>>>> dcbded49c3b91e02b082518cf12043e307a7d516
         }
     }
 
