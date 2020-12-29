@@ -30,16 +30,26 @@ $font-color: rgb(151, 76, 236);
     display: flex;
     justify-content: center;
     // background-color: aquamarine;
-    transition: all 0.75s;
+    transition: all;
     &-img {
         height: 70vh;
         width: 50vh;
-        transform: translateY(-20%);
+        transform: translateY(-15%);
+        display: flex;
+        justify-content: center;
         &-image {
-            background-size: cover;
-            text-align: center;
-            clip-path: polygon(40% 30%, 85% 30%, 55% 90%, 10% 90%);
-            animation: image-in 0.65s linear;
+            &-dhaka {
+                transform: translateX(30%);
+                clip-path: polygon(40% 30%, 85% 30%, 55% 90%, 10% 90%);
+                object-fit: none;
+            }
+            &-me {
+                transform: translateX(-30%);
+                background-size: cover;
+                text-align: center;
+                clip-path: polygon(40% 30%, 85% 30%, 55% 90%, 10% 90%);
+                animation: image-in 0.65s ease-in;
+            }
         }
     }
 
@@ -49,13 +59,13 @@ $font-color: rgb(151, 76, 236);
         max-width: 70vh;
 
         &-p {
-            margin-left: 15%;
             display: flex;
             flex-wrap: wrap;
             font-weight: 700;
             text-decoration: none;
             color: #212529;
             animation: text-in 1s cubic-bezier(0.22, 1.07, 1, 1);
+            overflow: visible;
         }
     }
 }
