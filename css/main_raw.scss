@@ -29,26 +29,24 @@ $font-color: rgb(151, 76, 236);
     max-height: 60vh;
     display: flex;
     justify-content: center;
-    // background-color: aquamarine;
     transition: all;
     &-img {
         height: 70vh;
         width: 50vh;
-        transform: translateY(-15%);
         display: flex;
         justify-content: center;
+        animation: image-in 0.8s ease-in;
         &-image {
             &-dhaka {
-                transform: translateX(30%);
+                transform: translate(30%, -15%);
                 clip-path: polygon(40% 30%, 85% 30%, 55% 90%, 10% 90%);
                 object-fit: none;
             }
             &-me {
-                transform: translateX(-30%);
+                transform: translate(-30%, -15%);
                 background-size: cover;
                 text-align: center;
                 clip-path: polygon(40% 30%, 85% 30%, 55% 90%, 10% 90%);
-                animation: image-in 0.65s ease-in;
             }
         }
     }
