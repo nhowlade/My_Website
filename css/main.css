@@ -36,7 +36,12 @@
       transform: translate(-30%, -15%);
       background-size: cover;
       text-align: center;
+<<<<<<< HEAD
       clip-path: polygon(40% 30%, 85% 30%, 55% 90%, 10% 90%); }
+=======
+      clip-path: polygon(40% 30%, 85% 30%, 55% 90%, 10% 90%);
+      animation: image-in .65s linear; }
+>>>>>>> dcbded49c3b91e02b082518cf12043e307a7d516
   .intro_element-text {
     display: flex;
     align-items: center;
