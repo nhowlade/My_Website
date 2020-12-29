@@ -15,13 +15,15 @@
 .intro_element {
   padding-top: 1.5%;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  background-color: aquamarine; }
   .intro_element-img-image {
     margin-left: 5%;
     height: 70vh;
     width: 50vh;
     background-size: cover;
     text-align: center;
+    transform: translateY(-25%);
     clip-path: polygon(40% 30%, 85% 30%, 55% 90%, 10% 90%); }
   .intro_element-text {
     display: flex;

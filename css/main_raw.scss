@@ -23,6 +23,7 @@ $font-color: rgb(151, 76, 236);
     padding-top: 1.5%;
     display: flex;
     justify-content: center;
+    background-color: aquamarine;
     &-img{
         &-image {
             margin-left: 5%;
@@ -30,7 +31,8 @@ $font-color: rgb(151, 76, 236);
             width: 50vh;
             background-size: cover;
             text-align: center;
-            clip-path: polygon(40% 30%, 85% 30%, 55% 90%, 10% 90%)
+            transform: translateY(-25%);
+            clip-path: polygon(40% 30%, 85% 30%, 55% 90%, 10% 90%);
         }
     }
 
