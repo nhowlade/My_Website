@@ -21,7 +21,8 @@
     height: 70vh;
     width: 50vh;
     background-size: cover;
-    text-align: center; }
+    text-align: center;
+    clip-path: polygon(40% 30%, 85% 30%, 55% 90%, 10% 90%); }
   .intro_element-text {
     display: flex;
     align-items: center;
