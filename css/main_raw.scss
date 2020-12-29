@@ -29,19 +29,17 @@ $font-color: rgb(151, 76, 236);
     max-height: 60vh;
     display: flex;
     justify-content: center;
-    background-color: aquamarine;
-
+    // background-color: aquamarine;
+    transition: all 0.75s;
     &-img {
         height: 70vh;
         width: 50vh;
         transform: translateY(-20%);
         &-image {
-            margin-left: 5%;
             background-size: cover;
             text-align: center;
             clip-path: polygon(40% 30%, 85% 30%, 55% 90%, 10% 90%);
-            animation: image-in 0.65s ease-in;
-            transition: all;
+            animation: image-in 0.65s linear;
         }
     }
 
@@ -49,6 +47,7 @@ $font-color: rgb(151, 76, 236);
         display: flex;
         align-items: center;
         max-width: 70vh;
+
         &-p {
             margin-left: 15%;
             display: flex;
@@ -56,6 +55,7 @@ $font-color: rgb(151, 76, 236);
             font-weight: 700;
             text-decoration: none;
             color: #212529;
+            animation: text-in 1s cubic-bezier(0.22, 1.07, 1, 1);
         }
     }
 }
@@ -119,5 +119,19 @@ $font-color: rgb(151, 76, 236);
     100% {
         opacity: 100%;
         transform: scale(1);
+    }
+}
+
+@keyframes text-in {
+    0% {
+        length: 2%;
+        transform: translateX(-10%);
+        opacity: 0;
+    }
+
+    100% {
+        length: 100%;
+        transform: translateX(0);
+        opacity: 100%;
     }
 }
