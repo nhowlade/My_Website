@@ -27,7 +27,7 @@
     width: 50vh;
     display: flex;
     justify-content: center;
-    animation: image-in 0.8s ease-in;
+    animation: image-in 0.9s ease-in;
     transition: all 1s; }
     .intro_element-img-image-guelph {
       transform: translate(82%, 10%);
@@ -37,7 +37,7 @@
       .intro_element-img-image-guelph:hover {
         filter: blur(0);
         z-index: 10;
-        clip-path: polygon(40% 4.99%, 88% 4.99%, 60% 65%, 10% 65%);
+        clip-path: polygon(40% 4.99%, 88% 4.99%, 58% 65%, 10% 65%);
         transition: all 0.3s;
         overflow: visible; }
     .intro_element-img-image-dhaka {
@@ -56,12 +56,10 @@
       transform: translate(-38%, -15%);
       background-size: cover;
       text-align: center;
-      clip-path: polygon(43% 30%, 85% 30%, 60% 90%, 15% 90%);
-      filter: blur(2px); }
+      clip-path: polygon(43% 30%, 85% 30%, 60% 90%, 17% 90%); }
       .intro_element-img-image-me:hover {
-        filter: blur(0);
         z-index: 10;
-        clip-path: polygon(43% 30%, 88% 30%, 63% 90%, 15% 90%);
+        clip-path: polygon(43% 30%, 88% 30%, 63% 90%, 17% 90%);
         transition: all 0.3s;
         overflow: visible; }
   .intro_element-text {
@@ -75,8 +73,56 @@
       font-weight: 700;
       text-decoration: none;
       color: #212529;
-      animation: text-in 1s cubic-bezier(0.22, 1.07, 1, 1);
+      animation: text-in 2s cubic-bezier(0.22, 1.07, 1, 1);
       overflow: visible; }
+
+@media screen and (max-width: 1300px) {
+  .intro_element-img-image-guelph {
+    clip-path: polygon(40% 4.99%, 85% 4.99%, 55% 65%, 10% 65%);
+    object-fit: contain;
+    filter: blur(3px); }
+    .intro_element-img-image-guelph:hover {
+      filter: blur(0);
+      z-index: 10;
+      clip-path: polygon(40% 4.99%, 88% 4.99%, 58% 65%, 10% 65%);
+      transition: all 0.3s;
+      overflow: visible; }
+  .intro_element-img-image-dhaka {
+    transform: translate(23%, -9.8%);
+    z-index: 1;
+    clip-path: polygon(40% 24.5%, 82% 24.5%, 54% 85%, 10% 85%);
+    object-fit: none;
+    filter: blur(2px); }
+    .intro_element-img-image-dhaka:hover {
+      filter: blur(0);
+      z-index: 10;
+      clip-path: polygon(40% 24.5%, 88% 24.5%, 60% 85%, 10% 85%);
+      transition: all 0.3s;
+      overflow: visible; }
+  .intro_element-img-image-me {
+    transform: translate(-40%, -15%);
+    background-size: cover;
+    text-align: center;
+    clip-path: polygon(45% 30%, 85% 30%, 60% 90%, 17% 90%); }
+    .intro_element-img-image-me:hover {
+      z-index: 10;
+      clip-path: polygon(45% 30%, 88% 30%, 63% 90%, 17% 90%);
+      transition: all 0.3s;
+      overflow: visible; }
+  .intro_element-text {
+    display: flex;
+    align-items: center;
+    transform: translateX(-35%);
+    max-width: 50vh; }
+    .intro_element-text-p {
+      display: flex;
+      flex-wrap: wrap;
+      font-weight: 700;
+      transform: translateX(20%);
+      text-decoration: none;
+      color: #212529;
+      animation: text-in 1s cubic-bezier(0.22, 1.07, 1, 1);
+      overflow: visible; } }
 
 @media screen and (max-width: 768px) {
   .intro_element-img {
@@ -121,7 +167,7 @@
     transform: scale(0.25); }
   100% {
     opacity: 100%;
-    transform: scale(1); } }
+    transform: translate(-22%) scale(1); } }
 
 @keyframes text-in {
   0% {
