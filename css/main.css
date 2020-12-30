@@ -16,12 +16,20 @@
     transform: scale(1.05);
     box-shadow: 2px 2px; }
 
+.hide {
+  display: none; }
+
 .intro_element {
   overflow: visible;
   max-height: 60vh;
   display: flex;
   justify-content: center;
   background-color: white; }
+  .intro_element-textbox {
+    height: 10vh;
+    transform: translate(40vh, 5vh); }
+    .intro_element-textbox-text {
+      font-size: 30px; }
   .intro_element-img {
     transform: translateX(-22%);
     height: 70vh;
@@ -30,8 +38,6 @@
     justify-content: center;
     animation: image-in 0.9s ease-in;
     transition: all 1s; }
-    .intro_element-img-hover_text {
-      display: none; }
     .intro_element-img-image-guelph {
       transform: translate(82%, 10%);
       clip-path: polygon(40% 4.99%, 85% 4.99%, 55% 65%, 10% 65%);
@@ -59,10 +65,10 @@
       transform: translate(-40%, -15%);
       background-size: cover;
       text-align: center;
-      clip-path: polygon(43% 30%, 85% 30%, 60% 90%, 17% 90%); }
+      clip-path: polygon(45% 30%, 85% 30%, 60% 90%, 17% 90%); }
       .intro_element-img-image-me:hover {
         z-index: 10;
-        clip-path: polygon(43% 30%, 88% 30%, 63% 90%, 17% 90%);
+        clip-path: polygon(45% 30%, 88% 30%, 63% 90%, 17% 90%);
         transition: all 0.3s;
         overflow: visible; }
   .intro_element-text {

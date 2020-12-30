@@ -23,13 +23,22 @@ $font-color: rgb(151, 76, 236);
         box-shadow: 2px 2px;
     }
 }
-
+.hide{
+    display: none;
+}
 .intro_element {
     overflow: visible;
     max-height: 60vh;
     display: flex;
     justify-content: center;
     background-color: white;
+    &-textbox{
+        height: 10vh;
+        transform: translate(40vh, 5vh);
+        &-text{
+            font-size: 30px;
+        }
+    }
     &-img {
         transform: translateX(-22%);
         height: 70vh;
@@ -38,9 +47,6 @@ $font-color: rgb(151, 76, 236);
         justify-content: center;
         animation: image-in 0.9s ease-in;
         transition: all 1s;            
-        &-hover_text{
-            display: none;
-        }
         &-image {
 
             &-guelph {
@@ -82,10 +88,10 @@ $font-color: rgb(151, 76, 236);
                 transform: translate(-40%, -15%);
                 background-size: cover;
                 text-align: center;
-                clip-path: polygon(43% 30%, 85% 30%, 60% 90%, 17% 90%);
+                clip-path: polygon(45% 30%, 85% 30%, 60% 90%, 17% 90%);
                 &:hover {
                     z-index: 10;
-                    clip-path: polygon(43% 30%, 88% 30%, 63% 90%, 17% 90%);
+                    clip-path: polygon(45% 30%, 88% 30%, 63% 90%, 17% 90%);
                     transition: all 0.3s;
                     overflow: visible;
                 }
