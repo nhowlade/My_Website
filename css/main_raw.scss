@@ -37,8 +37,12 @@ $font-color: rgb(151, 76, 236);
         display: flex;
         justify-content: center;
         animation: image-in 0.9s ease-in;
-        transition: all 1s;
+        transition: all 1s;            
+        &-hover_text{
+            display: none;
+        }
         &-image {
+
             &-guelph {
                 transform: translate(82%, 10%);
                 clip-path: polygon(40% 4.99%, 85% 4.99%, 55% 65%, 10% 65%);

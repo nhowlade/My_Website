@@ -30,6 +30,8 @@
     justify-content: center;
     animation: image-in 0.9s ease-in;
     transition: all 1s; }
+    .intro_element-img-hover_text {
+      display: none; }
     .intro_element-img-image-guelph {
       transform: translate(82%, 10%);
       clip-path: polygon(40% 4.99%, 85% 4.99%, 55% 65%, 10% 65%);
