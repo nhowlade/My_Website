@@ -29,7 +29,7 @@ $font-color: rgb(151, 76, 236);
     max-height: 60vh;
     display: flex;
     justify-content: center;
-
+    background-color: white;
     &-img {
         transform: translateX(-22%);
         height: 70vh;
@@ -54,28 +54,28 @@ $font-color: rgb(151, 76, 236);
                 }
             }
             &-dhaka {
-                transform: translate(23%, -9.8%); //this is real
+                transform: translate(23%, -10%); //this is real
                 // transform: translate(0%, -9.8%);
                 z-index: 1;
                 clip-path: polygon(
                     40% 25%,
                     82% 25%,
-                    54% 90%,
-                    10% 90%
+                    54% 85%,
+                    10% 85%
                 ); //this is real
                 // clip-path: polygon(35% 25%, 85% 25%, 55% 90%, 0% 90%);
-                object-fit: none;
+                object-fit: cover;
                 filter: blur(2px);
                 &:hover {
                     filter: blur(0);
                     z-index: 10;
-                    clip-path: polygon(40% 25%, 88% 25%, 60% 90%, 10% 90%);
+                    clip-path: polygon(40% 25%, 88% 25%, 60% 85%, 10% 85%);
                     transition: all 0.3s;
                     overflow: visible;
                 }
             }
             &-me {
-                transform: translate(-38%, -15%);
+                transform: translate(-40%, -15%);
                 background-size: cover;
                 text-align: center;
                 clip-path: polygon(43% 30%, 85% 30%, 60% 90%, 17% 90%);
