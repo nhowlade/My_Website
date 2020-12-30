@@ -29,11 +29,11 @@
     justify-content: center;
     animation: image-in 0.8s ease-in; }
     .intro_element-img-image-dhaka {
-      transform: translate(30%, -15%);
-      clip-path: polygon(40% 30%, 85% 30%, 55% 90%, 10% 90%);
+      transform: translate(23%, -9.8%);
+      clip-path: polygon(40% 25%, 85% 25%, 55% 90%, 10% 90%);
       object-fit: none; }
     .intro_element-img-image-me {
-      transform: translate(-30%, -15%);
+      transform: translate(-35%, -15%);
       background-size: cover;
       text-align: center;
       clip-path: polygon(40% 30%, 85% 30%, 55% 90%, 10% 90%); }
