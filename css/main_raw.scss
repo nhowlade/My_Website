@@ -28,15 +28,21 @@ $font-color: rgb(151, 76, 236);
     overflow: hidden;
     max-height: 60vh;
     display: flex;
-    justify-content: center;
+    // justify-content: space-around;
     transition: all;
     &-img {
+        // transform: translateX(-35%);
         height: 70vh;
         width: 50vh;
         display: flex;
         justify-content: center;
         animation: image-in 0.8s ease-in;
         &-image {
+            &-guelph {
+                transform: translate(82%, 10%);
+                clip-path: polygon(40% 4.99%, 85% 4.99%, 55% 65%, 10% 65%);
+                object-fit: scale-down;
+            }
             &-dhaka {
                 transform: translate(23%, -9.8%);
                 clip-path: polygon(40% 25%, 85% 25%, 55% 90%, 10% 90%);
@@ -54,7 +60,7 @@ $font-color: rgb(151, 76, 236);
     &-text {
         display: flex;
         align-items: center;
-        max-width: 70vh;
+        max-width: 40vh;
 
         &-p {
             display: flex;
