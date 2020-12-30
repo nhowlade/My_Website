@@ -19,7 +19,8 @@
 .intro_element {
   overflow: hidden;
   max-height: 60vh;
-  display: flex; }
+  display: flex;
+  justify-content: center; }
   .intro_element-img {
     height: 70vh;
     width: 50vh;
@@ -44,10 +45,8 @@
       clip-path: polygon(35% 25%, 82% 25%, 54% 90%, 10% 90%);
       object-fit: none; }
       .intro_element-img-image-dhaka:hover {
-        filter: blur(0);
-        z-index: 10;
-        clip-path: polygon(37% 20%, 90% 20%, 60% 90%, 10% 90%);
-        transition: all 0.5s;
+        transform: scale(1.05) translate(20%, -20%);
+        transition: all 0.3s;
         overflow: visible; }
     .intro_element-img-image-me {
       transform: translate(-35%, -15%);
@@ -57,7 +56,8 @@
   .intro_element-text {
     display: flex;
     align-items: center;
-    max-width: 40vh; }
+    transform: translateX(-25%);
+    max-width: 60vh; }
     .intro_element-text-p {
       display: flex;
       flex-wrap: wrap;

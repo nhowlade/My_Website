@@ -28,7 +28,7 @@ $font-color: rgb(151, 76, 236);
     overflow: hidden;
     max-height: 60vh;
     display: flex;
-    // justify-content: space-around;
+    justify-content: center;
 
     &-img {
         // transform: translateX(-35%);
@@ -67,10 +67,11 @@ $font-color: rgb(151, 76, 236);
                 object-fit: none;
                 // filter: blur(2px);
                 &:hover {
-                    filter: blur(0);
-                    z-index: 10;
-                    clip-path: polygon(37% 20%, 90% 20%, 60% 90%, 10% 90%);
-                    transition: all 0.5s;
+                    // filter: blur(0);
+                    // z-index: 10;
+                    // clip-path: polygon(37% 20%, 90% 20%, 60% 90%, 10% 90%);
+                    transform: scale(1.05) translate(20%,-20%);
+                    transition: all 0.3s;
                     overflow: visible;
                 }
             }
@@ -86,7 +87,8 @@ $font-color: rgb(151, 76, 236);
     &-text {
         display: flex;
         align-items: center;
-        max-width: 40vh;
+        transform: translateX(-25%);
+        max-width: 60vh;
 
         &-p {
             display: flex;
