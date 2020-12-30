@@ -22,6 +22,7 @@
   display: flex;
   justify-content: center; }
   .intro_element-img {
+    transform: translateX(-22%);
     height: 70vh;
     width: 50vh;
     display: flex;
@@ -42,7 +43,7 @@
     .intro_element-img-image-dhaka {
       transform: translate(23%, -9.8%);
       z-index: 1;
-      clip-path: polygon(35% 25%, 82% 25%, 54% 90%, 10% 90%);
+      clip-path: polygon(40% 25%, 82% 25%, 54% 90%, 10% 90%);
       object-fit: none; }
       .intro_element-img-image-dhaka:hover {
         transform: scale(1.05) translate(20%, -20%);
@@ -57,7 +58,7 @@
     display: flex;
     align-items: center;
     transform: translateX(-25%);
-    max-width: 60vh; }
+    max-width: 40vh; }
     .intro_element-text-p {
       display: flex;
       flex-wrap: wrap;

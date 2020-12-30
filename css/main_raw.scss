@@ -31,7 +31,7 @@ $font-color: rgb(151, 76, 236);
     justify-content: center;
 
     &-img {
-        // transform: translateX(-35%);
+        transform: translateX(-22%);
         height: 70vh;
         width: 50vh;
         display: flex;
@@ -58,7 +58,7 @@ $font-color: rgb(151, 76, 236);
                 // transform: translate(0%, -9.8%);
                 z-index: 1;
                 clip-path: polygon(
-                    35% 25%,
+                    40% 25%,
                     82% 25%,
                     54% 90%,
                     10% 90%
@@ -70,7 +70,7 @@ $font-color: rgb(151, 76, 236);
                     // filter: blur(0);
                     // z-index: 10;
                     // clip-path: polygon(37% 20%, 90% 20%, 60% 90%, 10% 90%);
-                    transform: scale(1.05) translate(20%,-20%);
+                    transform: scale(1.05) translate(20%, -20%);
                     transition: all 0.3s;
                     overflow: visible;
                 }
@@ -87,8 +87,9 @@ $font-color: rgb(151, 76, 236);
     &-text {
         display: flex;
         align-items: center;
+        // justify-content: flex-start;
         transform: translateX(-25%);
-        max-width: 60vh;
+        max-width: 40vh;
 
         &-p {
             display: flex;
