@@ -19,22 +19,36 @@
 .intro_element {
   overflow: hidden;
   max-height: 60vh;
-  display: flex;
-  transition: all; }
+  display: flex; }
   .intro_element-img {
     height: 70vh;
     width: 50vh;
     display: flex;
     justify-content: center;
-    animation: image-in 0.8s ease-in; }
+    animation: image-in 0.8s ease-in;
+    transition: all 1s; }
     .intro_element-img-image-guelph {
       transform: translate(82%, 10%);
       clip-path: polygon(40% 4.99%, 85% 4.99%, 55% 65%, 10% 65%);
-      object-fit: scale-down; }
+      object-fit: contain;
+      filter: blur(3px); }
+      .intro_element-img-image-guelph:hover {
+        filter: blur(0);
+        z-index: 10;
+        clip-path: polygon(40% 3%, 88% 3%, 60% 65%, 10% 65%);
+        transition: all 0.5s;
+        overflow: visible; }
     .intro_element-img-image-dhaka {
       transform: translate(23%, -9.8%);
-      clip-path: polygon(40% 25%, 85% 25%, 55% 90%, 10% 90%);
+      z-index: 1;
+      clip-path: polygon(35% 25%, 82% 25%, 54% 90%, 10% 90%);
       object-fit: none; }
+      .intro_element-img-image-dhaka:hover {
+        filter: blur(0);
+        z-index: 10;
+        clip-path: polygon(37% 20%, 90% 20%, 60% 90%, 10% 90%);
+        transition: all 0.5s;
+        overflow: visible; }
     .intro_element-img-image-me {
       transform: translate(-35%, -15%);
       background-size: cover;

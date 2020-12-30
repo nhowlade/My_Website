@@ -29,7 +29,7 @@ $font-color: rgb(151, 76, 236);
     max-height: 60vh;
     display: flex;
     // justify-content: space-around;
-    transition: all;
+
     &-img {
         // transform: translateX(-35%);
         height: 70vh;
@@ -37,16 +37,42 @@ $font-color: rgb(151, 76, 236);
         display: flex;
         justify-content: center;
         animation: image-in 0.8s ease-in;
+        transition: all 1s;
         &-image {
             &-guelph {
                 transform: translate(82%, 10%);
                 clip-path: polygon(40% 4.99%, 85% 4.99%, 55% 65%, 10% 65%);
-                object-fit: scale-down;
+                // clip-path: polygon(40% 3%, 88% 3%, 60% 65%, 10% 65%);
+                object-fit: contain;
+                filter: blur(3px);
+                &:hover {
+                    filter: blur(0);
+                    z-index: 10;
+                    clip-path: polygon(40% 3%, 88% 3%, 60% 65%, 10% 65%);
+                    transition: all 0.5s;
+                    overflow: visible;
+                }
             }
             &-dhaka {
-                transform: translate(23%, -9.8%);
-                clip-path: polygon(40% 25%, 85% 25%, 55% 90%, 10% 90%);
+                transform: translate(23%, -9.8%); //this is real
+                // transform: translate(0%, -9.8%);
+                z-index: 1;
+                clip-path: polygon(
+                    35% 25%,
+                    82% 25%,
+                    54% 90%,
+                    10% 90%
+                ); //this is real
+                // clip-path: polygon(35% 25%, 85% 25%, 55% 90%, 0% 90%);
                 object-fit: none;
+                // filter: blur(2px);
+                &:hover {
+                    filter: blur(0);
+                    z-index: 10;
+                    clip-path: polygon(37% 20%, 90% 20%, 60% 90%, 10% 90%);
+                    transition: all 0.5s;
+                    overflow: visible;
+                }
             }
             &-me {
                 transform: translate(-35%, -15%);
