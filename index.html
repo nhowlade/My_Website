@@ -1,136 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Nadeem Howlader 2.0</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet" />
-        <link href="css/main.css" rel="stylesheet" />
-        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-        <script>
-            $(function () {
-                $("#navbar_home").load("views/nav.html");
-            });
-        </script>
-        <script src="./myJ.js"></script>    
-    </head>
-    <body>
-        <div
-            id="navbar_home"
-            class="container-fluid container-mod sticky-top"
-        ></div>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nadeem Howlader 2.0</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+      $(function () {
+        $("#navbar_home").load("views/nav.html");
+      });
+    </script>
+  </head>
+  <body>
+    <div
+      id="navbar_home"
+      class="container-fluid container-mod sticky-top"
+    ></div>
 
-        <div class="entireBody container">
-            <div class="intro_element">
-                <div class="intro_element-text">
-                    <p class="intro_element-text-p">I am Nadeem Howlader, an aspiring
-                        Software Engineer.I am studying at the University of
-                        Guelph! There are ways we can improve our lives.</p>
-                </div>
-                <div class="intro_element-textbox hide"><h2 class="intro_element-textbox-text">Guelph, Canada</h2></div>
-                <div class="intro_element-img">
-                    <img
-                    src="./Guelph.jpg"
-                    alt="Guelph,Canada"
-                    class="intro_element-img-image-guelph img-fluid"
+    <div class="entireBody container">
+      <div class="min-vh-100">
+        <div class="row">
+          <div class="col-4">
+            <div class="">
+              <p class="">
+                I am Nadeem Howlader, an aspiring Software Engineer.I am
+                studying at the University of Guelph! There are ways we can
+                improve our lives.
+              </p>
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="">
+              <!-- <h2 class="intro_element-textbox-text">Guelph, Canada</h2> -->
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="img__container img__container__guelph">
+                <img
+                  src="./Guelph.jpg"
+                  alt="Guelph,Canada"
+                  class="intro-img img-fluid"
                 />
-                    <img
-                    src="./bangladesh-dhaka-pixabay.jpg"
-                    alt=""
-                    class="intro_element-img-image-dhaka img-fluid"
-                />
-                    <img
-                        src="./IMG_1586.JPG"
-                        alt=""
-                        class="intro_element-img-image-me img-fluid"
-                    />
-                </div>
-            </div>
+                <div class="intro-img__text">Guelph, Canada</div>
+              </div>
 
-            <hr class="divider">
-
-            <div class="EdSection">
-                <a href="#" id="education">My Education</a>
-                <div class="card__box">
-                    <div class="card__box--card">
-                        <p>
-                            Studying Software Engineering at University of Guelph
-                            Minor in Mathematics, Graduating in 2023
-                        </p>
-                    </div>
-                    <div class="card__box--card">
-                        <p>
-                            Completed Highschool in 2017 from Green Dale International School, Dhaka, Bangladesh.
-                        </p>
-                    </div>
-                </div>
+              <img
+                src="./niloy-biswas-qIUb3VNmxjI-unsplash.jpg"
+                alt=""
+                class="intro-img intro-img__bd img-fluid"
+              />
+              <img src="./IMG_1586.JPG" alt="" class="intro-img img-fluid" />
             </div>
-
-            <div class="EdSection">
-                <a href="#" id="education">Skills</a>
-                <div class="card__box">
-                    <div class="card__box--card">
-                        <h5>Programming:</h5>
-                        <p>Java, C, JavaScript(ES6),  HTML, CSS, Sass, Python, Perl</p>
-                    </div>
-                    <div class="card__box--card">
-                        <h5>Back-End / DevOps:</h5>
-                        <p>Nodejs , Gradle, Make, MongoDB, Git</p>
-                    </div>
-                </div>
-            </div>
-            <hr class="divider">
-            <div class="side_projects">
-                <a href="#" id="experiences">I went outside my home</a>
-                <p>
-                    In a normal linking scenario, the thing you need to link to
-                    has a URL of its own. But in this scenario, the page you
-                    want to link to and the page the link is on is one and the
-                    same -- so you've got to make up a name for the link's
-                    destination. I'd recommend using word or phrase that
-                    describes the link's destination. If you use a phrase, there
-                    should be no spaces -- use underscores instead. Example
-                    Let's say we wanted to link to an example of a company using
-                    Facebook ads in a post. Here's what I'd use as my object's
-                    name: facebook_ads_example
-                </p>
-                <a class="experience_page" href="experiences.html"
-                    ><button class="exp_button">
-                        Please click here to view my work term report
-                    </button></a
-                >
-                <p>
-                    In a normal linking scenario, the thing you need to link to
-                    has a URL of its own. But in this scenario, the page you
-                    want to link to and the page the link is on is one and the
-                    same -- so you've got to make up a name for the link's
-                    destination. I'd recommend using word or phrase that
-                    describes the link's destination. If you use a phrase, there
-                    should be no spaces -- use underscores instead. Example
-                    Let's say we wanted to link to an example of a company using
-                    Facebook ads in a post. Here's what I'd use as my object's
-                    name: facebook_ads_example
-                </p>
-                <p>
-                    In a normal linking scenario, the thing you need to link to
-                    has a URL of its own. But in this scenario, the page you
-                    want to link to and the page the link is on is one and the
-                    same -- so you've got to make up a name for the link's
-                    destination. I'd recommend using word or phrase that
-                    describes the link's destination. If you use a phrase, there
-                    should be no spaces -- use underscores instead. Example
-                    Let's say we wanted to link to an example of a company using
-                    Facebook ads in a post. Here's what I'd use as my object's
-                    name: facebook_ads_example
-                </p>
-                <p>Dummy text for use</p>
-            </div>
+          </div>
         </div>
+      </div>
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
-    </body>
+      <hr class="divider" />
+
+      <div class="EdSection">
+        <a href="#" id="education">My Education</a>
+        <div class="card__box">
+          <div class="card__box--card">
+            <p>
+              Studying Software Engineering at University of Guelph Minor in
+              Mathematics, Graduating in 2023
+            </p>
+          </div>
+          <div class="card__box--card">
+            <p>
+              Completed Highschool in 2017 from Green Dale International School,
+              Dhaka, Bangladesh.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="EdSection">
+        <a href="#" id="education">Skills</a>
+        <div class="card__box">
+          <div class="card__box--card">
+            <h5>Programming:</h5>
+            <p>Java, C, JavaScript(ES6), HTML, CSS, Sass, Python, Perl</p>
+          </div>
+          <div class="card__box--card">
+            <h5>Back-End / DevOps:</h5>
+            <p>Nodejs , Gradle, Make, MongoDB, Git</p>
+          </div>
+        </div>
+      </div>
+      <hr class="divider" />
+      <div class="side_projects">
+        <a href="#" id="experiences">I went outside my home</a>
+        <p>
+          In a normal linking scenario, the thing you need to link to has a URL
+          of its own. But in this scenario, the page you want to link to and the
+          page the link is on is one and the same -- so you've got to make up a
+          name for the link's destination. I'd recommend using word or phrase
+          that describes the link's destination. If you use a phrase, there
+          should be no spaces -- use underscores instead. Example Let's say we
+          wanted to link to an example of a company using Facebook ads in a
+          post. Here's what I'd use as my object's name: facebook_ads_example
+        </p>
+        <a class="experience_page" href="experiences.html"
+          ><button class="exp_button">
+            Please click here to view my work term report
+          </button></a
+        >
+        <p>
+          In a normal linking scenario, the thing you need to link to has a URL
+          of its own. But in this scenario, the page you want to link to and the
+          page the link is on is one and the same -- so you've got to make up a
+          name for the link's destination. I'd recommend using word or phrase
+          that describes the link's destination. If you use a phrase, there
+          should be no spaces -- use underscores instead. Example Let's say we
+          wanted to link to an example of a company using Facebook ads in a
+          post. Here's what I'd use as my object's name: facebook_ads_example
+        </p>
+        <p>
+          In a normal linking scenario, the thing you need to link to has a URL
+          of its own. But in this scenario, the page you want to link to and the
+          page the link is on is one and the same -- so you've got to make up a
+          name for the link's destination. I'd recommend using word or phrase
+          that describes the link's destination. If you use a phrase, there
+          should be no spaces -- use underscores instead. Example Let's say we
+          wanted to link to an example of a company using Facebook ads in a
+          post. Here's what I'd use as my object's name: facebook_ads_example
+        </p>
+        <p>Dummy text for use</p>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="./myJ.js"></script>
+  </body>
 </html>

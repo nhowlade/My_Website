@@ -19,6 +19,38 @@
 .hide {
   display: none; }
 
+.img__container {
+  position: relative; }
+  .img__container__guelph {
+    transform: translateX(110%); }
+    .img__container__guelph:hover .intro-img__text {
+      opacity: 1; }
+
+.intro-img__text {
+  position: absolute;
+  top: 35%;
+  left: 57%;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.3s ease-in; }
+
+.intro-img {
+  height: 100%;
+  width: 250px;
+  clip-path: polygon(40% 4.99%, 85% 4.99%, 55% 65%, 10% 65%);
+  object-fit: contain;
+  object-position: 100% -20%;
+  transition: all 0.5s ease-in; }
+  .intro-img__bd {
+    transform: translateX(55%); }
+  .intro-img:hover {
+    filter: blur(2px);
+    z-index: 10;
+    clip-path: polygon(40% 4.99%, 88% 4.99%, 58% 65%, 10% 65%);
+    transition: all 0.5s ease-in;
+    overflow: visible; }
+
 .intro_element {
   overflow: visible;
   max-height: 60vh;
@@ -36,8 +68,8 @@
     width: 50vh;
     display: flex;
     justify-content: center;
-    animation: image-in 0.9s ease-in;
-    transition: all 1s; }
+    animation: image-in 0.65s ease-in;
+    transition: all 0.5s; }
     .intro_element-img-image-guelph {
       transform: translate(82%, 10%);
       clip-path: polygon(40% 4.99%, 85% 4.99%, 55% 65%, 10% 65%);

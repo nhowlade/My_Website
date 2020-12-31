@@ -3,277 +3,299 @@ $space-right: 4%;
 $font-color: rgb(151, 76, 236);
 
 .container-mod {
-    padding: 0;
+  padding: 0;
 }
 .me_navItem {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 @media screen and (max-width: 768px) {
-    .me_navItem {
-        justify-content: flex-start;
-    }
+  .me_navItem {
+    justify-content: flex-start;
+  }
 }
 .exp_button {
-    background: linear-gradient(to right, #808080, #d3d3d3d3);
-    border-radius: 100px;
+  background: linear-gradient(to right, #808080, #d3d3d3d3);
+  border-radius: 100px;
 
-    &:hover {
-        transform: scale(1.05);
-        box-shadow: 2px 2px;
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px;
+  }
+}
+.hide {
+  display: none;
+}
+.img__container {
+  position: relative;
+  &__guelph {
+    &:hover .intro-img__text {
+      opacity: 1;
     }
+    transform: translateX(110%);
+  }
 }
-.hide{
-    display: none;
+
+.intro-img__text {
+  position: absolute;
+  top: 35%;
+  left: 57%;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.3s ease-in;
 }
-.intro_element {
+.intro-img {
+  height: 100%;
+  width: 250px;
+  clip-path: polygon(40% 4.99%, 85% 4.99%, 55% 65%, 10% 65%);
+  object-fit: contain;
+  object-position: 100% -20%;
+  transition: all 0.5s ease-in;
+  &__bd {
+    transform: translateX(55%);
+  }
+  &:hover {
+    filter: blur(2px);
+    z-index: 10;
+    clip-path: polygon(40% 4.99%, 88% 4.99%, 58% 65%, 10% 65%);
+    transition: all 0.5s ease-in;
     overflow: visible;
-    max-height: 60vh;
+  }
+}
+
+.intro_element {
+  overflow: visible;
+  max-height: 60vh;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  &-textbox {
+    height: 10vh;
+    transform: translate(40vh, 5vh);
+    &-text {
+      font-size: 30px;
+    }
+  }
+  &-img {
+    transform: translateX(-22%);
+    height: 70vh;
+    width: 50vh;
     display: flex;
     justify-content: center;
-    background-color: white;
-    &-textbox{
-        height: 10vh;
-        transform: translate(40vh, 5vh);
-        &-text{
-            font-size: 30px;
+    animation: image-in 0.65s ease-in;
+    transition: all 0.5s;
+    &-image {
+      &-guelph {
+        transform: translate(82%, 10%);
+        clip-path: polygon(40% 4.99%, 85% 4.99%, 55% 65%, 10% 65%);
+        // clip-path: polygon(40% 3%, 88% 3%, 60% 65%, 10% 65%);
+        object-fit: contain;
+        filter: blur(3px);
+        &:hover {
+          filter: blur(0);
+          z-index: 10;
+          clip-path: polygon(40% 4.99%, 88% 4.99%, 58% 65%, 10% 65%);
+          transition: all 0.3s;
+          overflow: visible;
         }
+      }
+      &-dhaka {
+        transform: translate(23%, -10%); //this is real
+        // transform: translate(0%, -9.8%);
+        z-index: 1;
+        clip-path: polygon(40% 25%, 82% 25%, 54% 85%, 10% 85%); //this is real
+        // clip-path: polygon(35% 25%, 85% 25%, 55% 90%, 0% 90%);
+        object-fit: cover;
+        filter: blur(2px);
+        &:hover {
+          filter: blur(0);
+          z-index: 10;
+          clip-path: polygon(40% 25%, 88% 25%, 60% 85%, 10% 85%);
+          transition: all 0.3s;
+          overflow: visible;
+        }
+      }
+      &-me {
+        transform: translate(-40%, -15%);
+        background-size: cover;
+        text-align: center;
+        clip-path: polygon(45% 30%, 85% 30%, 60% 90%, 17% 90%);
+        &:hover {
+          z-index: 10;
+          clip-path: polygon(45% 30%, 88% 30%, 63% 90%, 17% 90%);
+          transition: all 0.3s;
+          overflow: visible;
+        }
+      }
     }
-    &-img {
-        transform: translateX(-22%);
-        height: 70vh;
-        width: 50vh;
-        display: flex;
-        justify-content: center;
-        animation: image-in 0.9s ease-in;
-        transition: all 1s;            
-        &-image {
+  }
 
-            &-guelph {
-                transform: translate(82%, 10%);
-                clip-path: polygon(40% 4.99%, 85% 4.99%, 55% 65%, 10% 65%);
-                // clip-path: polygon(40% 3%, 88% 3%, 60% 65%, 10% 65%);
-                object-fit: contain;
-                filter: blur(3px);
-                &:hover {
-                    filter: blur(0);
-                    z-index: 10;
-                    clip-path: polygon(40% 4.99%, 88% 4.99%, 58% 65%, 10% 65%);
-                    transition: all 0.3s;
-                    overflow: visible;
-                }
-            }
-            &-dhaka {
-                transform: translate(23%, -10%); //this is real
-                // transform: translate(0%, -9.8%);
-                z-index: 1;
-                clip-path: polygon(
-                    40% 25%,
-                    82% 25%,
-                    54% 85%,
-                    10% 85%
-                ); //this is real
-                // clip-path: polygon(35% 25%, 85% 25%, 55% 90%, 0% 90%);
-                object-fit: cover;
-                filter: blur(2px);
-                &:hover {
-                    filter: blur(0);
-                    z-index: 10;
-                    clip-path: polygon(40% 25%, 88% 25%, 60% 85%, 10% 85%);
-                    transition: all 0.3s;
-                    overflow: visible;
-                }
-            }
-            &-me {
-                transform: translate(-40%, -15%);
-                background-size: cover;
-                text-align: center;
-                clip-path: polygon(45% 30%, 85% 30%, 60% 90%, 17% 90%);
-                &:hover {
-                    z-index: 10;
-                    clip-path: polygon(45% 30%, 88% 30%, 63% 90%, 17% 90%);
-                    transition: all 0.3s;
-                    overflow: visible;
-                }
-            }
+  &-text {
+    display: flex;
+    align-items: center;
+    // justify-content: flex-start;
+    transform: translateX(-25%);
+    max-width: 40vh;
+
+    &-p {
+      display: flex;
+      flex-wrap: wrap;
+      font-weight: 700;
+      text-decoration: none;
+      color: #212529;
+      animation: text-in 2s cubic-bezier(0.22, 1.07, 1, 1);
+      overflow: visible;
+    }
+  }
+}
+@media screen and (max-width: 1300px) {
+  .intro_element {
+    &-img {
+      // transform: translateX(-22%);
+      &-image {
+        &-guelph {
+          // transform: translate(82%, 10%);
+          clip-path: polygon(40% 4.99%, 85% 4.99%, 55% 65%, 10% 65%);
+          // clip-path: polygon(40% 3%, 88% 3%, 60% 65%, 10% 65%);
+          object-fit: contain;
+          filter: blur(3px);
+          &:hover {
+            filter: blur(0);
+            z-index: 10;
+            clip-path: polygon(40% 4.99%, 88% 4.99%, 58% 65%, 10% 65%);
+            transition: all 0.3s;
+            overflow: visible;
+          }
         }
+        &-dhaka {
+          transform: translate(23%, -9.8%); //this is real
+          // transform: translate(0%, -9.8%);
+          z-index: 1;
+          clip-path: polygon(
+            40% 24.5%,
+            82% 24.5%,
+            54% 85%,
+            10% 85%
+          ); //this is real
+          // clip-path: polygon(35% 25%, 85% 25%, 55% 90%, 0% 90%);
+          object-fit: none;
+          filter: blur(2px);
+          &:hover {
+            filter: blur(0);
+            z-index: 10;
+            clip-path: polygon(40% 24.5%, 88% 24.5%, 60% 85%, 10% 85%);
+            transition: all 0.3s;
+            overflow: visible;
+          }
+        }
+        &-me {
+          transform: translate(-40%, -15%);
+          background-size: cover;
+          text-align: center;
+          clip-path: polygon(45% 30%, 85% 30%, 60% 90%, 17% 90%);
+          &:hover {
+            z-index: 10;
+            clip-path: polygon(45% 30%, 88% 30%, 63% 90%, 17% 90%);
+            transition: all 0.3s;
+            overflow: visible;
+          }
+        }
+      }
     }
 
     &-text {
+      display: flex;
+      align-items: center;
+      // justify-content: flex-start;
+      transform: translateX(-35%);
+      max-width: 50vh;
+
+      &-p {
         display: flex;
-        align-items: center;
-        // justify-content: flex-start;
-        transform: translateX(-25%);
-        max-width: 40vh;
-
-        &-p {
-            display: flex;
-            flex-wrap: wrap;
-            font-weight: 700;
-            text-decoration: none;
-            color: #212529;
-            animation: text-in 2s cubic-bezier(0.22, 1.07, 1, 1);
-            overflow: visible;
-        }
+        flex-wrap: wrap;
+        font-weight: 700;
+        transform: translateX(20%);
+        text-decoration: none;
+        color: #212529;
+        animation: text-in 1s cubic-bezier(0.22, 1.07, 1, 1);
+        overflow: visible;
+      }
     }
-}
-@media screen and (max-width: 1300px) {
-    .intro_element {
-        &-img {
-            // transform: translateX(-22%);
-            &-image {
-                &-guelph {
-                    // transform: translate(82%, 10%);
-                    clip-path: polygon(40% 4.99%, 85% 4.99%, 55% 65%, 10% 65%);
-                    // clip-path: polygon(40% 3%, 88% 3%, 60% 65%, 10% 65%);
-                    object-fit: contain;
-                    filter: blur(3px);
-                    &:hover {
-                        filter: blur(0);
-                        z-index: 10;
-                        clip-path: polygon(
-                            40% 4.99%,
-                            88% 4.99%,
-                            58% 65%,
-                            10% 65%
-                        );
-                        transition: all 0.3s;
-                        overflow: visible;
-                    }
-                }
-                &-dhaka {
-                    transform: translate(23%, -9.8%); //this is real
-                    // transform: translate(0%, -9.8%);
-                    z-index: 1;
-                    clip-path: polygon(
-                        40% 24.5%,
-                        82% 24.5%,
-                        54% 85%,
-                        10% 85%
-                    ); //this is real
-                    // clip-path: polygon(35% 25%, 85% 25%, 55% 90%, 0% 90%);
-                    object-fit: none;
-                    filter: blur(2px);
-                    &:hover {
-                        filter: blur(0);
-                        z-index: 10;
-                        clip-path: polygon(
-                            40% 24.5%,
-                            88% 24.5%,
-                            60% 85%,
-                            10% 85%
-                        );
-                        transition: all 0.3s;
-                        overflow: visible;
-                    }
-                }
-                &-me {
-                    transform: translate(-40%, -15%);
-                    background-size: cover;
-                    text-align: center;
-                    clip-path: polygon(45% 30%, 85% 30%, 60% 90%, 17% 90%);
-                    &:hover {
-                        z-index: 10;
-                        clip-path: polygon(45% 30%, 88% 30%, 63% 90%, 17% 90%);
-                        transition: all 0.3s;
-                        overflow: visible;
-                    }
-                }
-            }
-        }
-
-        &-text {
-            display: flex;
-            align-items: center;
-            // justify-content: flex-start;
-            transform: translateX(-35%);
-            max-width: 50vh;
-
-            &-p {
-                display: flex;
-                flex-wrap: wrap;
-                font-weight: 700;
-                transform: translateX(20%);
-                text-decoration: none;
-                color: #212529;
-                animation: text-in 1s cubic-bezier(0.22, 1.07, 1, 1);
-                overflow: visible;
-            }
-        }
-    }
+  }
 }
 @media screen and (max-width: 768px) {
-    .intro_element {
-        &-img {
-            margin: auto;
-            height: 70vh;
-            width: 50vh;
-            &-image {
-                background-size: cover;
-                text-align: center;
-                clip-path: polygon(40% 30%, 85% 30%, 55% 90%, 10% 90%);
-            }
-        }
-
-        &-text {
-            margin: auto;
-            display: flex;
-            align-items: center;
-            max-width: 70vh;
-            &-p {
-                margin-left: 15%;
-            }
-        }
+  .intro_element {
+    &-img {
+      margin: auto;
+      height: 70vh;
+      width: 50vh;
+      &-image {
+        background-size: cover;
+        text-align: center;
+        clip-path: polygon(40% 30%, 85% 30%, 55% 90%, 10% 90%);
+      }
     }
+
+    &-text {
+      margin: auto;
+      display: flex;
+      align-items: center;
+      max-width: 70vh;
+      &-p {
+        margin-left: 15%;
+      }
+    }
+  }
 }
 
 .EdSection {
-    padding-left: 30px;
-    border-radius: 2px 1rem;
+  padding-left: 30px;
+  border-radius: 2px 1rem;
 }
 
 #education {
-    font-weight: 700;
-    &:hover {
-        text-decoration: none;
-    }
+  font-weight: 700;
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .card__box {
-    display: flex;
-    justify-content: space-evenly;
-    &--card {
-        flex-wrap: wrap;
-        max-width: 30%;
-        display: inline-block;
-    }
+  display: flex;
+  justify-content: space-evenly;
+  &--card {
+    flex-wrap: wrap;
+    max-width: 30%;
+    display: inline-block;
+  }
 }
 
 .divider {
-    border: 2px solid rgba(15, 2, 2, 0.158);
+  border: 2px solid rgba(15, 2, 2, 0.158);
 }
 
 @keyframes image-in {
-    0% {
-        opacity: 0;
-        transform: scale(0.25);
-    }
-    100% {
-        opacity: 100%;
-        transform: translate(-22%) scale(1);
-    }
+  0% {
+    opacity: 0;
+    transform: scale(0.25);
+  }
+  100% {
+    opacity: 100%;
+    transform: translate(-22%) scale(1);
+  }
 }
 
 @keyframes text-in {
-    0% {
-        length: 2%;
-        transform: translateX(-10%);
-        opacity: 0;
-    }
+  0% {
+    length: 2%;
+    transform: translateX(-10%);
+    opacity: 0;
+  }
 
-    100% {
-        length: 100%;
-        transform: translateX(0);
-        opacity: 100%;
-    }
+  100% {
+    length: 100%;
+    transform: translateX(0);
+    opacity: 100%;
+  }
 }
