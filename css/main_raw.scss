@@ -29,6 +29,12 @@ $font-color: rgb(151, 76, 236);
   align-items: center;
   transform: translateX(20%);
 }
+
+.first-text {
+  font-family: "Acme", sans-serif;
+  font-size: larger;
+  font-weight: 700;
+}
 .img__container {
   position: relative;
   &__guelph {
@@ -48,9 +54,7 @@ $font-color: rgb(151, 76, 236);
   position: absolute;
   top: 35%;
   left: 57%;
-  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
+  color: white;
   transform: translate(-50%, -50%);
   opacity: 0;
   transition: all 0.3s ease-in;
