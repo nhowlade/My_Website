@@ -72,10 +72,6 @@ $font-color: rgb(151, 76, 236);
   object-fit: contain;
   object-position: 100% -20%;
   transition: all 0.5s ease-in;
-  &__bd {
-  }
-  &__me {
-  }
   &:hover {
     filter: blur(2px);
     // clip-path: polygon(40% 4.99%, 90% 4.99%, 60% 65%, 10% 65%);
