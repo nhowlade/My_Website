@@ -11,9 +11,10 @@
 
 .logo-git {
   height: 40px;
-  width: 40px; }
+  width: 40px;
+  transition: all 0.3s; }
   .logo-git:hover {
-    cursor: pointer; }
+    filter: hue-rotate(50deg); }
 
 .exp_button {
   background: linear-gradient(to right, #808080, #d3d3d3d3);
