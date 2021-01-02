@@ -81,7 +81,27 @@ $font-color: rgb(151, 76, 236);
     // clip-path: polygon(40% 4.99%, 90% 4.99%, 60% 65%, 10% 65%);
   }
 }
+//The entire footer element
+.footer-nadeem {
+  padding: 0.5rem 1rem; //#28313B #485461
+  background-image: linear-gradient(180deg, #485461, #28313b);
+  // background-color: #342e2e;
+  color: white;
+  text-align: center;
+}
+//Container for the first div in the footer
+.footer-container {
+  display: flex;
+  justify-content: center;
+  & > p {
+    margin-top: 1rem;
+  }
+}
 
+#acknowledgements {
+  text-decoration: none;
+  color: white;
+}
 // .intro_element {
 //   overflow: visible;
 //   max-height: 60vh;
