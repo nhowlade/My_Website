@@ -16,6 +16,10 @@
   .logo-git:hover {
     filter: hue-rotate(50deg); }
 
+.logo-bd {
+  height: 30px;
+  width: 30px; }
+
 .exp_button {
   background: linear-gradient(to right, #808080, #d3d3d3d3);
   border-radius: 100px; }
@@ -84,8 +88,8 @@
   text-align: center; }
 
 .footer-container {
-  display: flex;
-  justify-content: center; }
+  margin: 0;
+  display: block; }
   .footer-container > p {
     margin-top: 1rem; }
 
