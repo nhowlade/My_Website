@@ -151,6 +151,8 @@
   padding-bottom: 20px; }
 
 .wtr-1 {
+  display: flex;
+  flex-direction: column;
   padding: 0;
   margin: 0;
   width: inherit;
@@ -160,6 +162,9 @@
 .img-rp-first {
   width: inherit;
   height: inherit; }
+
+.rp-text-1 p {
+  margin-bottom: 0.5rem; }
 
 @keyframes image-in {
   0% {
