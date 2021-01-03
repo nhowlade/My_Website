@@ -46,6 +46,17 @@
   font-weight: 500;
   text-align: center;
   animation: text-in 1s ease-out; }
+  .first-text-rp-text1 {
+    background-color: #42378f;
+    background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+    text-align: center;
+    color: #7ef9ff;
+    font-size: 30px;
+    transform: translateY(-325px);
+    letter-spacing: 2px;
+    text-shadow: 5px 5px 6px black;
+    z-index: 10;
+    animation: image-in 0.65s ease-in; }
 
 .img__container {
   position: relative; }
@@ -139,13 +150,20 @@
   padding-top: 0;
   padding-bottom: 20px; }
 
+.wtr-1 {
+  width: inherit;
+  height: inherit;
+  transition: all 0.3s; }
+
+.img-rp-first {
+  width: inherit;
+  height: inherit; }
+
 @keyframes image-in {
   0% {
-    opacity: 0;
-    transform: scale(0.25); }
+    opacity: 0; }
   100% {
-    opacity: 100%;
-    transform: translate(-22%) scale(1); } }
+    opacity: 100%; } }
 
 @keyframes text-in {
   0% {
