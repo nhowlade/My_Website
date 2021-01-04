@@ -402,12 +402,13 @@ $font-color: rgb(151, 76, 236);
 }
 
 .rp-text {
+    &-italics {
+        font-style: italic;
+    }
     &-1 {
-        & h2 {
-            // margin-bottom: 0;
-        }
         & p {
             margin-bottom: 0.5rem;
+            display: inline;
         }
     }
     &-2 {
