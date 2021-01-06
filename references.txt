@@ -1,2 +1,4 @@
 The dhaka picture: https://smartwatermagazine.com/news/world-bank/world-bank-provides-170-million-better-sanitation-dhaka-bangladesh
 The BD icon: Bangladesh icon by Icons8
+html  <span>Photo by <a href="https://unsplash.com/@grakozy?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Greg Rakozy</a> on <a href="https://unsplash.com/s/photos/javascript?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+comms - Image by <a href="https://pixabay.com/users/jmexclusives-10518280/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5187243">Joseph Mucira</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5187243">Pixabay</a>
