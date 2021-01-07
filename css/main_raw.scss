@@ -489,33 +489,51 @@ $font-color: rgb(151, 76, 236);
       display: block;
     }
     &-productivity {
-      width: 45px;
-      height: 45px;
+      width: 200px;
+      height: 200px;
       border-radius: 30%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
     &-html {
-      width: 30px;
-      height: 30px;
+      width: 130px;
+      height: 130px;
       border-radius: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
     &-comms {
-      width: 30px;
-      height: 30px;
+      width: 130px;
+      height: 130px;
       border-radius: 30%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
     &-webconf {
-      width: 30px;
-      height: 30px;
+      width: 130px;
+      height: 130px;
       border-radius: 30%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
     &-des {
-      width: 30px;
-      height: 30px;
+      width: 130px;
+      height: 130px;
       border-radius: 30%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
     &-team {
-      width: 40px;
-      height: 30px;
+      width: 140px;
+      height: 130px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
   .rp-text {
