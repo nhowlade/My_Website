@@ -150,9 +150,10 @@ $font-color: rgb(151, 76, 236);
   }
 }
 
-// .container-credits {
-
-// }
+.container-credits {
+  display: flex;
+  justify-content: space-between;
+}
 
 #credits {
   text-decoration: none;
@@ -403,6 +404,10 @@ $font-color: rgb(151, 76, 236);
     height: inherit;
     transition: all 0.3s;
   }
+}
+.img-cred {
+  width: 400px;
+  height: 400px;
 }
 .img-rp {
   &-introimg {

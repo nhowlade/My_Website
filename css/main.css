@@ -124,6 +124,10 @@
   .footer-container > p {
     margin-top: 1rem; }
 
+.container-credits {
+  display: flex;
+  justify-content: space-between; }
+
 #credits {
   text-decoration: none;
   color: white; }
@@ -172,6 +176,10 @@
   width: inherit;
   height: inherit;
   transition: all 0.3s; }
+
+.img-cred {
+  width: 400px;
+  height: 400px; }
 
 .img-rp-introimg {
   width: inherit;
