@@ -120,6 +120,14 @@ $font-color: rgb(151, 76, 236);
     // clip-path: polygon(40% 4.99%, 90% 4.99%, 60% 65%, 10% 65%);
   }
 }
+.entireBody h2:before {
+  display: block;
+  content: " ";
+  margin-top: -80px;
+  height: 80px;
+  visibility: hidden;
+  pointer-events: none;
+}
 //The entire footer element
 .footer-nadeem {
   padding: 0.5rem 1rem; //#28313B #485461
