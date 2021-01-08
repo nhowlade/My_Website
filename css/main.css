@@ -235,6 +235,8 @@
     margin-left: 2%; }
 
 @media screen and (max-width: 425px) {
+  .row {
+    flex-direction: column-reverse; }
   .first-text-rp-text1 {
     font-size: unset;
     transform: unset; }
