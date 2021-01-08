@@ -1,6 +1,14 @@
 $space-left: 5%;
 $space-right: 4%;
 $font-color: rgb(151, 76, 236);
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
 .padding-left-2 {
   padding-left: 2%;
 }
@@ -129,12 +137,9 @@ $font-color: rgb(151, 76, 236);
 }
 //The entire footer element
 .footer-nadeem {
+  margin-top: auto;
   padding: 0.5rem 1rem; //#28313B #485461
   background-image: linear-gradient(180deg, #485461, #28313b);
-  // background-color: #342e2e;
-  right: 0;
-  bottom: 0;
-  left: 0;
   z-index: 1030;
   color: white;
   text-align: center;

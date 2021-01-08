@@ -36,18 +36,12 @@
         $("#navbar_home").load("views/nav.html");
       });
     </script>
-    <script>
-      $(function () {
-        $("#footer_home").load("views/foot.html");
-      });
-    </script>
   </head>
   <body>
     <div
       id="navbar_home"
       class="container-fluid container-mod sticky-top"
     ></div>
-
     <div class="entireBody container">
       <div class="row first-element-container">
         <div class="col-4 first-container">
@@ -148,7 +142,21 @@
         </div>
       </div>
     </div>
-    <div id="footer_home" class="container-fluid container-mod"></div>
+    <footer class="footer-nadeem">
+      <div class="footer-container">
+        <div>
+          &copy; 2020-2021 by Nadeem Howlader
+          <img
+            class="logo-bd"
+            src="https://img.icons8.com/emoji/48/000000/bangladesh-emoji.png"
+          />
+        </div>
+
+        <div>
+          <a id="credits" href="./views/credits.html">Credits</a>
+        </div>
+      </div>
+    </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
