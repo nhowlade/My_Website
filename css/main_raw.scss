@@ -395,12 +395,12 @@ body {
 
 .padding-down {
   margin-top: 20px;
-  padding-top: 0px;
+  padding-top: 5px;
   padding-bottom: 20px;
 }
-@media screen and (min-width: 1439px) {
+@media screen and (min-width: 1199px) {
   .padding-down {
-    padding-top: 5px;
+    padding-top: 15px;
   }
 }
 .wtr {
