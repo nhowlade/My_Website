@@ -386,14 +386,15 @@ body {
 
 //About me
 .heading-element {
-  text-align: center;
+  // text-align: center;
   position: relative;
   &-text {
     background-color: #2ea5a1;
     color: white;
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 15%;
+    top: 20%;
+    font-size: 3rem;
   }
 }
 //End of About me sectione

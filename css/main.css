@@ -312,14 +312,14 @@ body {
       margin-left: 2%; } }
 
 .heading-element {
-  text-align: center;
   position: relative; }
   .heading-element-text {
     background-color: #2ea5a1;
     color: white;
     position: absolute;
-    right: 0;
-    top: 0; }
+    right: 15%;
+    top: 20%;
+    font-size: 3rem; }
 
 @keyframes image-in {
   0% {
