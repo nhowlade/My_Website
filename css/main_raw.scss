@@ -1,5 +1,6 @@
 $space-left: 5%;
 $space-right: 4%;
+$about-me-font: 1.25em;
 $font-color: rgb(151, 76, 236);
 html {
   height: 100%;
@@ -397,7 +398,11 @@ body {
     font-size: 3rem;
   }
 }
-//End of About me sectione
+.paragraph {
+  margin-top: 2%;
+  font-size: $about-me-font;
+}
+//End of About me section
 @keyframes image-in {
   0% {
     opacity: 0;

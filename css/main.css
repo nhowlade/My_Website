@@ -321,6 +321,10 @@ body {
     top: 20%;
     font-size: 3rem; }
 
+.paragraph {
+  margin-top: 2%;
+  font-size: 1.25em; }
+
 @keyframes image-in {
   0% {
     opacity: 0; }
