@@ -443,14 +443,26 @@ body {
 .teeny {
   width: 600px;
 }
+.security {
+  width: 550px;
+  height: 400px;
+}
+.tetris {
+  width: 400px;
+  height: 400px;
+}
 .project {
-  padding-top: 5%;
+  padding: 2% 2% 2% 2%;
   align-items: center;
-
+  margin-bottom: 2%;
   box-shadow: 2px 2px 5px #aaaaaa;
   & p {
     font-size: 1.15rem;
     margin-right: 3%;
+  }
+  &-2 {
+    flex-direction: row-reverse;
+    padding: 2% 2% 2% 2%;
   }
 }
 .git-logo {

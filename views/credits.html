@@ -31,14 +31,50 @@
     />
     <link rel="manifest" href="../favicon_io/site.webmanifest" />
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <script>
-      $(function () {
-        $("#navbar").load("nav.html");
-      });
-    </script>
   </head>
   <body>
-    <div id="navbar" class="container-fluid container-mod sticky-top"></div>
+    <nav
+      class="navbar container-fluid navbar-expand-lg navbar-light bg-light fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">Nadeem Howlader</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="me_navItem collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about_me.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://github.com/nhowlade"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img class="logo-git" src="../svg/github.svg"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <div style="padding-top: 5%" class="container container-credits">
       <div>
         <p>Bangladesh flag icon by Icons8</p>
@@ -110,6 +146,18 @@
         <p>
           Corporate environment picture
           <a href="http://www.freepik.com">Designed by pch.vector / Freepik</a>
+        </p>
+        <p>
+          Tetris image
+          <a href="http://www.freepik.com"
+            >Designed by Dukepope.com / Freepik</a
+          >
+        </p>
+        <p>
+          Encryption-decryption image
+          <a href="http://www.freepik.com"
+            >Designed by rawpixel.com / Freepik</a
+          >
         </p>
       </div>
       <img class="img-cred" src="../pictures/award.jpg" />
