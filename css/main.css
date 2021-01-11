@@ -352,6 +352,32 @@ body {
   display: flex;
   align-items: center; }
 
+.teeny {
+  width: 600px; }
+
+.project {
+  padding-top: 5%;
+  align-items: center;
+  box-shadow: 2px 2px 5px #aaaaaa; }
+  .project p {
+    font-size: 1.15rem;
+    margin-right: 3%; }
+
+.git-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 4%;
+  transition: all 0.3s; }
+  .git-logo:hover {
+    filter: invert(50%); }
+
+.link-logo {
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s; }
+  .link-logo:hover {
+    filter: sepia(70%); }
+
 @keyframes image-in {
   0% {
     opacity: 0; }
