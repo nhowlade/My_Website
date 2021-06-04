@@ -1,0 +1,3 @@
+Latest update pushed out:
+
+    04/06/2021      About me page about the pastimes, hover effect on the cards on index page
