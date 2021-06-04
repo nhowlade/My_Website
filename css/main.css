@@ -155,6 +155,10 @@ body {
     max-width: 30%;
     display: inline-block; }
 
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06); }
+
 .divider {
   border: 2px solid rgba(15, 2, 2, 0.158); }
 
