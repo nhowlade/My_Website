@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container'
 
 const navbar = () => {
     return (
-        <Navbar collapseOnSelect variant="dark" bg="dark" expand="lg">
+        <Navbar collapseOnSelect sticky="top" variant="dark" bg="dark" expand="lg">
             <Container>
                 <Navbar.Brand href="#home">Nadeem Howlader</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
