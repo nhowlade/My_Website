@@ -1,6 +1,6 @@
-import Navbar from './components/navbar';
+import Navbar from './components/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Paragraph from './components/paragraph';
+import Paragraph from './components/Paragraph';
 import { Container } from 'react-bootstrap';
 
 function App() {

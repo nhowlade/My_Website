@@ -1,7 +1,7 @@
 import React from 'react'
 // import Jumbotron from 'react-bootstrap/Jumbotron'
 
-const paragraph = ({title,content}) => {
+const Paragraph = ({title,content}) => {
     return (
         <div>        
             <h1>{title}</h1>
@@ -11,4 +11,4 @@ const paragraph = ({title,content}) => {
 )
 }
 
-export default paragraph
+export default Paragraph
