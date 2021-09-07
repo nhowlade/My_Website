@@ -13,6 +13,10 @@
   }
 }
 
+.line-hr{
+  border: 30px solid black;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

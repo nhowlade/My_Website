@@ -17,12 +17,12 @@ const navbar = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
-                        <Nav.Link href="#introduction">Introduction</Nav.Link>
+                        <Nav.Link href="#introduction"><span onClick={() => SmoothScroll("intro")}>Introduction</span></Nav.Link>
                         <Nav.Link href="#md-team"><span onClick={() => SmoothScroll("md-team")}>The MD Team</span></Nav.Link>
-                        <Nav.Link href="#my-role">My role in the team</Nav.Link>
-                        <Nav.Link href="#goals">Goals and learnings</Nav.Link>
-                        <Nav.Link href="#takeaways">Takeaways</Nav.Link>
-                        <Nav.Link href="#acknowledgements">Acknowledgements</Nav.Link>
+                        <Nav.Link href="#my-role"><span onClick={() => SmoothScroll("my-role")}>My role in the team</span></Nav.Link>
+                        <Nav.Link href="#goals"><span onClick={() => SmoothScroll("goals")}>Goals and learnings</span></Nav.Link>
+                        <Nav.Link href="#takeaways"><span onClick={() => SmoothScroll("takeaways")}>Takeaways</span></Nav.Link>
+                        <Nav.Link href="#acknowledgements"><span onClick={() => SmoothScroll("acknowledgements")}>Acknowledgements</span></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
