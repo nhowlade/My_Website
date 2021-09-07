@@ -4,7 +4,7 @@ import Paragraph from './components/Paragraph';
 import Bullet from './components/Bullet';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image'
-import Johnston from './images/johnston_800.jpg'
+import Johnston from './images/John_720.jpg'
 
 
 function App() {
