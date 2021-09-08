@@ -14,7 +14,6 @@ const Bullet = ({title,content, imgsrc}) => {
                     <Col ><Image src={imgsrc} fluid/></Col>
                 </Row>
             </Container>
-            {content.map((line,key) =>(<p key={key}>{line}</p>))}
         </div>
     )
 }
