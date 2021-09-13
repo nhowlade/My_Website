@@ -13,17 +13,13 @@
   }
 }
 
-.line-hr{
+.line-hr {
   border: 30px solid black;
 }
 
-.footer-color{
+.footer-color {
   background-color: green;
 }
-/* .align-me{
-  display: flex;
-  align-items: center;
-} */
 
 .App-header {
   background-color: #282c34;
