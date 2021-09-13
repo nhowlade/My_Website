@@ -12,7 +12,7 @@ const Bullet = ({title,content, imgsrc}) => {
             <Container>
                 <Row xs={1} lg={2} className="align-items-center">
                     {
-                        (arr === true ? <Col><Image src={imgsrc} fluid roundedCircle/></Col> :<Col><Image src={imgsrc} fluid/></Col>  )
+                        (arr === true ? <Col><Image src={imgsrc} fluid rounded/></Col> :<Col><Image src={imgsrc} fluid/></Col>  )
                     }
                     <Col>{content.map((line,key) =>(<p key={key}>{line}</p>))}</Col>
                 </Row>
