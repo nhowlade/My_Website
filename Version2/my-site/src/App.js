@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Paragraph from './components/Paragraph';
 import Bullet from './components/Bullet';
@@ -29,6 +30,7 @@ function App() {
         <Paragraph linkpresent="false" name="takeaways" title="Takeaways" content={['Although Summer’21 was over quite soon before I was aware, these past 4 months I have gained a lot of technical expertise regarding various IT management tasks. My work with SCCM has got me quite used to it and the time invested in learning React has been more than helpful to create this webpage. Troubleshooting both hardware and software seems more fun now with the more hands-on experience I got this summer, while keeping our clients satisfied with our service was also another thing I have kept my focus on.', 'Being in a hybrid work environment also helped to give me experience about the office-work culture, to a certain extent. Being absorbed into a team to help all our clients and successfully take care of their daily IT issues always made me feel proud of myself at work. The responsibility of a technician is quite big, but I can claim that I worked on myself enough to fulfill those responsibilities at the best of my abilities.']}/>
         <Paragraph linkpresent="false" name="acknowledgements" title="Acknowledgements" content={['Being an IT Student Technician has been an adventure for me and I am glad that I could work in such an amazing team.', 'I would love to credit the entire MD team for giving me such a wonderful experience. I personally would like to thank Bogdan, Garrett, Simon, Riley, and Jeff for helping me to catch up with the duties of my position. Among side the technicians I would also like to extend my thanks to Amr, Ragib and Shamsi for working alongside me. I hope all of you have had an awesome summer working with me for I can clearly say we had a good teamwork going into the office.', 'To our manager, Brian Thomson, I would say your words were always motivating me to work at my best and I am always enlightened to hear your suggestions, from feedback related to our service. Another person who has always been encouraging me along was Jill Hogg, she is an amazing supervisor and I feel I would not be able to reach this point without her guidance.', 'To Laura Gatto and Kate McRoberts, I am thankful to have been under your supervision while securing my co-op.', 'Lastly, I would like to thank my parents, siblings, and friends for their support. It truly means a lot to me and I promise to work hard to achieve my dreams and goals in the near future.']} />
       </Container>
+      <Footer/>
     </div>
   );
 }

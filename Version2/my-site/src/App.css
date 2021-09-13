@@ -17,6 +17,9 @@
   border: 30px solid black;
 }
 
+.footer-color{
+  background-color: green;
+}
 /* .align-me{
   display: flex;
   align-items: center;
