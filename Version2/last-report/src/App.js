@@ -6,8 +6,9 @@ import Bullet from "./components/Bullet";
 import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
 import Lego from "./images/Hola.jpg";
-import REACT from "./images/react.jpg";
-import SCCM from "./images/sccm.jpg";
+import Wolf from "./images/ArcticWolf-logo.png";
+import Python from "./images/python-programming-language-word-concept-qa-concept_198568-68.jpg";
+import AWS from "./images/AWS.jpg";
 import doc from "./images/doc.jpg";
 
 function App() {
@@ -27,47 +28,45 @@ function App() {
           name="intro"
           title="Introduction"
           content={[
-            "Summer’21 was another spectacular summer of my life and to top everything off, I am dedicating this blog post to showcase the things I have picked up from my third co-op placement. This time the University of Guelph’s CCS has decided to give me a return offer to work with the Managed Desktops team this summer.",
-          ]}
-        />
-        <Paragraph
-          linkpresent="true"
-          link="https://nadeemhowlader.com/views/work_term_reports.html"
-          name="md-team"
-          title="The MD Team"
-          content={[
-            "This time I was working for the Managed Desktops (MD) Team. For the summer there was 4 co-op students, including me, in the team. The MD team primarily provides IT support to a wide variety of clients across the University of Guelph. Access to MD support is only limited to paying clients and we flag these clients as MD clients.",
-            "The team provides support for various technical and hardware-related issues like hardware troubleshooting and diagnosis, technical consultation for workflow and procedures, centrally managed proactive security scanning and monitoring, etc. Within the team, we maintain a very professional service culture, where we always put the needs of our clients as our top priority.",
-            "You might want to look at my previous work term report to know about my last summer’s experience with them.",
+            "Winter’22 was looking very promising for me. We were entering the new normal phase of our daily lives, after the struggles of Lockdowns and the whole “COVID” situation. At the same time, I was excited to accept a co-op position at Arctic Wolf for 8 months. It was a developer position and I was ready to put in the work and learn as much as I could from this opportunity.",
           ]}
         />
         <Paragraph
           linkpresent="false"
-          name="my-role"
-          title="My role in the Managed Desktop team"
+          name="arctic-wolf"
+          title="Arctic Wolf"
           content={[
-            "I joined the MD team under the title of Student IT Consultant. Mostly my work revolved around helping the tech analysts resolve the issues raised by our clients. On a regular day, we would be looking at tickets containing issues reported by clients. Our ticket leader would assign these tickets to analysts and co-ops to reach out to the client and help to resolve their issues.",
-            "Teamwork is very integral, and I am glad to say that we all worked together to meet and go beyond the expectations of our clients. Whenever we got stuck on any tickets, our analysts were there to support us through it. We worked in a hybrid setting for the summer, where we spent three weeks on site and one week from home. On site we would be dealing with clients face-to-face sometimes to help with hardware troubleshooting, to provide support to other departments and to manage machines we had ordered. When working from home, we would be focussed on following up with clients and go on remote sessions to fix their issues.",
-            "My experience from the IT Help Centre came handy when I was communicating with my clients. I am glad to say that I gave my best to provide the best service to our clients. We also took part in deploying machines for our clients. This involved a standard procedure which was quite easy to catch up within days into the job. Our communication within the team was so good that we were able to grab hold of all our responsibilities diligently early. We also managed to bring some changes to the process flow in the office to make things more efficient.",
+            "Arctic Wolf specializes in providing its clients with security operations. Over the years, many new technologies, vendors, and software solutions have emerged, but cyber incidents still seem to be a threat to the cyberspace we have wrapped ourselves in. Arctic Wolf envisions to exterminate these risks and create a cyberspace that is free from all malicious activity. They provide 24×7 monitoring, detection and response, as well as ongoing risk management to proactively protect organizations while continually strengthening their security posture. Their solutions include Arctic Wolf® Managed Detection and Response (MDR), Managed Risk, Managed Cloud Monitoring, and Managed Security Awareness.",
+            "With specialized personnel, Arctic Wolf has set out to make their presence known in the CyberSecurity Industry. They are currently expanding outside of North America in order to protect more clients and reach a point where cyber risk is essentially zero.",
+          ]}
+        />
+        <Bullet
+          imgsrc={Wolf}
+          name="my-role"
+          title="My time @ Arctic Wolf"
+          content={[
+            "I joined Arctic Wolf as a Software Developer Co-op in Arctic Wolf’s Research and Development(RnD) department. At first I was assigned to the Carebears team, where I spent my first 4 months. I was assigned technical tickets to solve, help run daily standups, organize team retrospectives etc. I also had an amazing mentor to help me get up to speed with the products we managed and get familiarized with the workflows within the team.",
+            "The entire team was very supportive of each other and everyone was willing to help one another in time of need. Our manager always had weekly one-on-one meetings with each and everyone of us and worked hard to make sure we were all reaching both our personal and the company’s goals. Besides solving programming problems, we had many interesting conferences and events across the company.",
+            "For the last few months of my term, I was with the Bladerunners team. I retained similar responsibilities as before but we were more focussed with a few specific products. I met a lot of new people during my time and collaborated with many talented individuals. Arctic Wolf’s work culture is great and it provides everyone with an opportunity to grow within the company.",
           ]}
         />
         <div id="goals">
           <h1>Goals and Learnings</h1>
           <hr style={{ border: "2px solid black" }} />
           <Bullet
-            imgsrc={SCCM}
-            title="Learn to work with windows configuration managers(SCCM) and understand how software deployment works"
+            imgsrc={Python}
+            title="Learn and become proficient in Python"
             content={[
-              "Microsoft System Center Configuration Manager (SCCM) is a Windows product that enables the management, deployment and security of devices and applications across an organisation. The use of this software has been a key part in managing machines for our clients. Using SCCM we were able to push out software updates, operating system updates, deploy software packages and even perform real-time actions on the managed machines.",
-              "We have over 2,100 computers under the Managed Desktops’ client’s list, using SCCM made it quite easy for us to keep track of all these machines. From the status of a machine to a detailed report of its internal updates, the SCCM can be useful when troubleshooting a machine remotely. Since SCCM was created by Microsoft, we were able to load our machines with a customized Windows Operating System, which enabled the IT technicians to manage the machines easily. I have been given the task of adding machines to SCCM, performing software updates and pushing software to machines on various occasions. There were also times where I was asked to track machines’ status and notice if any odd reports were being received from them or not. Since we took away the need to bring in a machine to our office for a software installation, our clients appreciated how we pushed software remotely via SCCM.",
+              "My first ticket at Arctic wolf helped me get started on my journey to polish my Python skills. It was a very interesting language to pick up, since it was pretty versatile and a high-level language. Coming from working in C and Java, Python was pretty amazing. With its extensive collection of external libraries, it was able to solve anything I wanted to do.",
+              "I took a few introductory courses on Python to get the hang of it and by the end of each course I felt more and more confident in myself. I used Python to fix a feature within our product line, where strings were being used. This also gave me exposure to regular expressions and the strings library for Python.",
             ]}
           />
           <Bullet
-            imgsrc={REACT}
-            title="Learning and working with React"
+            imgsrc={AWS}
+            title="Learn to use Amazon Web Services"
             content={[
-              "React is a very interesting JavaScript library, used to create front-end components for web page or app. Since summer is the only time, I am away from school, I decided to build-up on my web development skills. I previously had experience with JavaScript so React was not too difficult to catch up to. I decided to code out my current work term report in React, just so I can have something to apply my knowledge on.",
-              "React gives web developers the flexibility to use various component-based approach to their web application and this becomes very handy when managing a large-scale project. React also had many additional packages which could be used to further enhance any project. I had the opportunity to work with Material-UI and React-strap this summer. Overall, learning React was a solid experience and would come in handy for my career.",
+              "Amazon Web Services consists of a huge collection of services that all helps to provide cloud computing power to various organizations. Throughout my time at Arctic Wolf, I have worked closely with Elastic Container Service (ECS) and Elastic Kubernetes Service (EKS). Both ECS and EKS come with a layer of abstraction for containers and are used to run, stop, and manage containers in a cluster.",
+              "I first started to work with ECS where I was dealing with scaling ECS clusters to accomodate a much larger workload. The support for ECS was dwindling and so a joint decision was made to migrate all our clusters to use EKS. EKS allowed us to easily run tooling and plugins developed by the Kubernetes and integrate it with our containers. It also drastically helped to automate load distribution and made carrying out maintenance quite easier for us.",
             ]}
           />
           <Bullet
