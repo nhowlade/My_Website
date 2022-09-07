@@ -4,10 +4,10 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
 
-const Bullet = ({title,content, imgsrc}) => {
+const Bullet = ({title,id,content, imgsrc}) => {
     const arr = imgsrc.includes("sccm");
     return (
-        <div>        
+        <div id={id}>        
             <h1>{title}</h1>
             <Container>
                 <Row xs={1} lg={2} className="align-items-center">
