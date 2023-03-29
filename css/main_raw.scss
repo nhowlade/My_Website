@@ -60,12 +60,11 @@ body {
   display: flex;
   align-items: center;
   transform: translateX(50%);
-  width: 100px;
+  // width: 100px;
   transition: all 0.3s;
 }
 
 .first-text {
-  // font-family: "El Messiri", sans-serif;
   letter-spacing: 2px;
   font-size: 18px;
   font-weight: 500;
