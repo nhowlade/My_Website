@@ -23,6 +23,11 @@ body {
   .me_navItem {
     justify-content: flex-start; } }
 
+.hero-img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover; }
+
 .logo-git {
   height: 40px;
   width: 40px;
@@ -105,6 +110,9 @@ body {
   transition: all 0.5s ease-in; }
   .intro-img:hover {
     filter: blur(2px); }
+
+.entireBody {
+  max-width: 70%; }
 
 .entireBody h2:before {
   display: block;

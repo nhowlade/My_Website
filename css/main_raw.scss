@@ -28,6 +28,11 @@ body {
     justify-content: flex-start;
   }
 }
+.hero-img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
 .logo {
   &-git {
     height: 40px;
@@ -126,6 +131,9 @@ body {
     filter: blur(2px);
     // clip-path: polygon(40% 4.99%, 90% 4.99%, 60% 65%, 10% 65%);
   }
+}
+.entireBody {
+  max-width: 70%;
 }
 .entireBody h2:before {
   display: block;
