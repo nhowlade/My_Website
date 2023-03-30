@@ -33,6 +33,24 @@ body {
   width: 100%;
   object-fit: cover;
 }
+
+.top-text {
+  top: 50%;
+  left: 31%;
+  transform: translateY(-50%) translateX(-50%);
+  width: 34%;
+}
+
+.btn-find-out {
+  background-color: #e4800b;
+  border-radius: 20px;
+  color: white;
+  -webkit-text-stroke: black 0.05px;
+  &:hover {
+    background-color: #be6702;
+    color: white;
+  }
+}
 .logo {
   &-git {
     height: 40px;
@@ -133,7 +151,8 @@ body {
   }
 }
 .entireBody {
-  max-width: 70%;
+  max-width: 75%;
+  padding: 0%;
 }
 .entireBody h2:before {
   display: block;
